@@ -1,20 +1,23 @@
 $size: 48px;
 
-.small, .large {
+.top-bar, .small, .large {
     height: $size;
     width: 100%;
 }
 
+.top-bar {
+    background: white;
+}
+
 .small {
     display: flex;
-    background: white;
 }
 
 .large {
     display: none;
 }
 
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 900px) {
     .small {
         display: none;
     }
@@ -25,6 +28,21 @@ $size: 48px;
         & > .filler{
             flex-grow: 1;
         }
+    }
+
+    .header {
+        font-size: 1.3em;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .middle {
+        width: 70%;
+    }
+
+    .self-aligned {
+        justify-content: space-between;
+        align-content: space-between;
     }
 
     .nav-button {
@@ -41,15 +59,15 @@ $size: 48px;
         }
     
         &:active {
-            background: #ececec;
+            background: #eaeaea;
         }
     
         &.active {
             color: white;
-            background: transparent;
+            background: #353535;
 
             &:hover {
-                background: rgba(0, 0, 0, 0.1);
+                background: #424242;
             }
         }
     }

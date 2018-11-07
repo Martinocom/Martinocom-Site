@@ -5,3 +5,15 @@ input[type=text] {
     border: 1px solid lightgray;
     padding: 5px 15px 5px 15px;
 }
+
+.fact-id {
+    display: inline-block;
+    min-width: 30px;
+    max-width: 30px;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.inline-div {
+    display: inline-block;
+}

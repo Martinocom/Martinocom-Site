@@ -5,13 +5,16 @@
     align-items: center;
 
     & > * {
+        border-radius: 5px;
+        margin: 5px;
+        opacity: 0;
         width: 100%;
         flex-grow: 1;
     }
 }
 
 .middle {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.5);
     margin: 20px;
     padding: 20px;
     width: 100%;
@@ -30,13 +33,15 @@
     z-index: 2;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 555px) {
     .menu {
         flex-flow: row;
         flex-wrap: wrap;
 
         & > * {
-            width: 50%;
+            margin: 10px;
+            width: 40%;
+            max-width: 40%;
             flex-grow: 1;
         }
     }
@@ -47,11 +52,15 @@
     }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
     .middle {
         padding: 50px;
         width: 90%;
         height: auto;
+    }
+
+    .middle {
+        border-radius: 15px;
     }
 
     .container {
@@ -65,3 +74,37 @@
         width: 75%;
     }
 }
+
+@mixin animate-fade($color, $duration, $delay) {
+    @keyframes fadeAnimation#{$delay} {
+        0% {
+            opacity: 0;
+            border: 2px solid white;
+        }
+        100% {
+            opacity: 1;
+            border: 2px solid gray;
+            background: white;
+        }
+    }
+
+    animation: $duration linear $delay 1 fadeAnimation#{$delay} forwards;
+}
+
+#first {
+    @include animate-fade(#1554c9, 300ms, 0ms);
+}
+
+#second {
+    @include animate-fade(#3437da, 300ms, 100ms);
+}
+
+#third {
+    @include animate-fade(#15c5ae, 300ms, 200ms);
+}
+
+#fourth {
+    @include animate-fade(#ffd755, 300ms, 300ms);
+}
+
+

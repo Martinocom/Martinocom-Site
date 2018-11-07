@@ -7,16 +7,21 @@
 
   <ul class="page-list" *ngIf="!isAllOk">
     <li *ngIf="isLoading">Caricamento delle verità...</li>
-    <li *ngIf="isEmpty">Non è presente nessuna verità. Blasfemia!</li>
+    <li *ngIf="isEmpty">
+      <b>Nessuna verità trovata!</b><br/>
+      <i>Assicurati di aver digitato correttamente il testo ricercato o la parola chiave: ricorda che funziona bene con parole intere! Se ti manca un riferimento, o vuoi aggiungere una nuova parola chiave, segnalamelo!</i>
+    </li>
     <li *ngIf="isError">Qualche profano ha disturbato la comunicazione, riprova!</li>
   </ul>
 
   <ul class="page-list" #pageList *ngIf="isAllOk">
-    <li *ngFor="let fact of facts">
-      <span>{{fact.id}}. </span>
-      <div style="display: inline-block;" *ngIf="fact.html != ''" [innerHTML]="fact.html"></div>
-      <div style="display: inline-block;" *ngIf="fact.html != ''">{{fact.html}}</div>
-      <span *ngIf="!fact.html">{{fact.text}}</span>
+    <li class="flex horizontal start-aligned " *ngFor="let fact of facts">
+      <div class="fact-id"><b>{{fact.id}}</b></div>
+      <div>
+        <div class="inline-div" *ngIf="fact.html != ''" [innerHTML]="fact.html"></div>
+        <div class="inline-div" *ngIf="fact.html != ''">{{fact.html}}</div>
+        <span *ngIf="!fact.html">{{fact.text}}</span>
+      </div>
     </li>
   </ul>
 </div>

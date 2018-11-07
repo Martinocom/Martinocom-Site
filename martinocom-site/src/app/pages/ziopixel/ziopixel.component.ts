@@ -54,7 +54,7 @@ export class ZiopixelComponent implements OnInit {
 
       this.savedFacts.forEach(fact => {
         
-        if (fact.keywords.indexOf(val) > 0 || fact.text.indexOf(val) > 0) {
+        if (fact.keywords.indexOf(val) >= 0 || fact.text.indexOf(val) >= 0) {
           this.facts.push(fact)
         }
 
