@@ -1,0 +1,23 @@
+<app-navigator title="Verità su ZioPixel"></app-navigator>
+
+
+
+<div class="page-container">
+  <input type="text" placeholder="Parola o tag da ricercare nelle verità" (keyup)="onKey($event)">
+
+  <ul class="page-list" *ngIf="!isAllOk">
+    <li *ngIf="isLoading">Caricamento delle verità...</li>
+    <li *ngIf="isEmpty">Non è presente nessuna verità. Blasfemia!</li>
+    <li *ngIf="isError">Qualche profano ha disturbato la comunicazione, riprova!</li>
+  </ul>
+
+  <ul class="page-list" #pageList *ngIf="isAllOk">
+    <li *ngFor="let fact of facts">
+      <span>{{fact.id}}. </span>
+      <div style="display: inline-block;" *ngIf="fact.html != ''" [innerHTML]="fact.html"></div>
+      <div style="display: inline-block;" *ngIf="fact.html != ''">{{fact.html}}</div>
+      <span *ngIf="!fact.html">{{fact.text}}</span>
+    </li>
+  </ul>
+</div>
+

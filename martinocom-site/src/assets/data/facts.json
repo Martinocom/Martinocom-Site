@@ -1,0 +1,1840 @@
+{
+    "facts": [
+        {
+            "id": 1,
+            "keywords": [
+                "ragione",
+                "sempre",
+                "ziopixel"
+            ],
+            "text": "ZioPixel ha sempre ragione"
+        },
+        {
+            "id": 2,
+            "keywords": [
+                "azione",
+                "bomba",
+                "bombe",
+                "d'azione",
+                "distrugge",
+                "distruggere",
+                "raggio",
+                "xmp",
+                "ziopixel"
+            ],
+            "text": "Il raggio d'azione di ZioPixel è un XMP perenne che distrugge tutto al contatto"
+        },
+        {
+            "id": 3,
+            "keywords": [
+                "bomba",
+                "bombe",
+                "deploy",
+                "deploya",
+                "xmp",
+                "ziopixel"
+            ],
+            "text": "ZioPixel deploya le XMP"
+        },
+        {
+            "id": 4,
+            "keywords": [
+                "fazione",
+                "terza",
+                "ziopixel"
+            ],
+            "text": "ZioPixel è la terza fazione"
+        },
+        {
+            "id": 5,
+            "keywords": [
+                "16",
+                "action",
+                "ap",
+                "exotic",
+                "l16",
+                "livelli",
+                "livello",
+                "matter",
+                "points",
+                "punti",
+                "xm",
+                "ziopixel"
+            ],
+            "text": "Il livello 16 è stato creato solo perchè ZioPixel aveva già i punti necessari per farlo"
+        },
+        {
+            "id": 6,
+            "keywords": [
+                "16",
+                "action",
+                "ap",
+                "exotic",
+                "in",
+                "l16",
+                "livelli",
+                "livello",
+                "matter",
+                "più",
+                "points",
+                "punti",
+                "xm",
+                "ziopixel"
+            ],
+            "text": "In realtà ZioPixel ha sempre un livello in più di te"
+        },
+        {
+            "id": 7,
+            "keywords": [
+                "bomba",
+                "bombe",
+                "piada",
+                "piadina",
+                "salsiccia",
+                "spara",
+                "xmp",
+                "ziopixel"
+            ],
+            "text": "ZioPixel non spara bombe: le caccia a suon di piada con salsiccia"
+        },
+        {
+            "id": 8,
+            "keywords": [
+                "fondato",
+                "fondatore",
+                "ingress",
+                "niantic",
+                "scimmie",
+                "ziopixel"
+            ],
+            "text": "ZioPixel ha inventato Ingress e fondato la Niantic, ma le scimmie ancora non lo sanno"
+        },
+        {
+            "id": 9,
+            "keywords": [
+                "16",
+                "bomba",
+                "bombe",
+                "bombe",
+                "l16",
+                "spara",
+                "xmp",
+                "ziopixel"
+            ],
+            "text": "Se ZioPixel spara XMP lo fa solo con quelle di livello 16"
+        },
+        {
+            "id": 10,
+            "keywords": [
+                "altri",
+                "bulow",
+                "cube",
+                "cubi",
+                "cubo",
+                "energia",
+                "exotic",
+                "matter",
+                "power",
+                "riciclano",
+                "ricila",
+                "xm",
+                "ziopixel"
+            ],
+            "text": "ZioPixel non usa cubi: si procura energia quando gli altri agenti riciclano"
+        },
+        {
+            "id": 11,
+            "keywords": [
+                "ada",
+                "area",
+                "aree",
+                "campi",
+                "collegamenti",
+                "collegamento",
+                "field",
+                "jarvis",
+                "link",
+                "virus",
+                "ziopixel"
+            ],
+            "text": "I virus di ZioPixel si propagano sui link e field"
+        },
+        {
+            "id": 12,
+            "keywords": [
+                "cellulare",
+                "disabilita",
+                "disabled",
+                "mondo",
+                "scanner",
+                "telefono",
+                "ziopixel"
+            ],
+            "text": "Il telefono di ZioPixel non va mai in 'Scanner Disabled': è il mondo che lo circonda che si disabilita"
+        },
+        {
+            "id": 13,
+            "keywords": [
+                "dov'è",
+                "dove",
+                "fake",
+                "gps",
+                "localizzare",
+                "rintracciare",
+                "rintracciato",
+                "ziopixel"
+            ],
+            "text": "ZioPixel non ha bisogno del GPS per essere rintracciato: non puoi rintracciare ZioPixel"
+        },
+        {
+            "id": 14,
+            "keywords": [
+                "anomalia",
+                "anomaly",
+                "conquistare",
+                "gioca",
+                "ingress",
+                "ziopixel"
+            ],
+            "text": "In realtà solo ZioPixel gioca a Ingress: tutto il resto è un'anomalia che ZioPixel tenta di conquistare"
+        },
+        {
+            "id": 15,
+            "keywords": [
+                "batteria",
+                "battery",
+                "cellulare",
+                "energia",
+                "energy",
+                "exotic",
+                "matter",
+                "telefono",
+                "xm",
+                "ziopixel"
+            ],
+            "text": "Il cellulare di ZioPixel ha la batteria a XM"
+        },
+        {
+            "id": 16,
+            "keywords": [
+                "alieni",
+                "morte",
+                "shapers",
+                "terra",
+                "ziopixel"
+            ],
+            "text": "Gli shapers non verranno sulla terra: stanno aspettando la morte di ZioPixel"
+        },
+        {
+            "id": 17,
+            "keywords": [
+                "cube",
+                "cubes",
+                "cubi",
+                "cubo",
+                "immortale",
+                "power",
+                "vita",
+                "ziopixel"
+            ],
+            "text": "ZioPixel è immortale: usa cubi per ricaricare l'energia vitale"
+        },
+        {
+            "id": 18,
+            "keywords": [
+                "8",
+                "deploy",
+                "deployare",
+                "l8",
+                "livello",
+                "portal",
+                "portale",
+                "portali",
+                "portals",
+                "uppa",
+                "uppare",
+                "ziopixel"
+            ],
+            "text": "ZioPixel uppa i portali L8"
+        },
+        {
+            "id": 19,
+            "keywords": [
+                "avversari",
+                "casa",
+                "iitc",
+                "intel",
+                "intell",
+                "map",
+                "nemici",
+                "pietà",
+                "ziopixel"
+            ],
+            "text": "IITC è stata creata per far agire ZioPixel direttamente da casa. ZioPixel non la usa per pietà verso i suoi avversari"
+        },
+        {
+            "id": 20,
+            "keywords": [
+                "2000",
+                "inventario",
+                "inventory",
+                "items",
+                "superiori",
+                "ziopixel"
+            ],
+            "text": "ZioPixel ha altri 2000 spazi riservati solo agli item superiori al livello 8"
+        },
+        {
+            "id": 21,
+            "keywords": [
+                "annuncia",
+                "annuncio",
+                "bug",
+                "buona",
+                "fix",
+                "fixes",
+                "parola",
+                "ziopixel"
+            ],
+            "text": "ZioPixel non pronuncia buona parola: annuncia nuovi BUG FIXES"
+        },
+        {
+            "id": 22,
+            "keywords": [
+                "esiste",
+                "esistenza",
+                "ingress",
+                "zio",
+                "ziopixel"
+            ],
+            "text": "ZioPixel esiste senza Ingress; Ingress non esiste senza zio"
+        },
+        {
+            "id": 23,
+            "keywords": [
+                "axa",
+                "comuni",
+                "mortali",
+                "potenti",
+                "protezioni",
+                "scudi",
+                "shield",
+                "zio",
+                "ziopixel"
+            ],
+            "text": "Gli scudi AXA in realtà dovevano chiamarsi ZIO Shield, ma sarebbero stati troppo potenti per i comuni mortali"
+        },
+        {
+            "id": 24,
+            "keywords": [
+                "energia",
+                "exotic",
+                "matter",
+                "nasconde",
+                "riserve",
+                "tasche",
+                "xm",
+                "ziopixel"
+            ],
+            "text": "ZioPixel nasconde le riserve di XM nelle sue tasche"
+        },
+        {
+            "id": 25,
+            "keywords": [
+                "bomba",
+                "bombe",
+                "bombe",
+                "deploy",
+                "fire",
+                "inventario",
+                "portal",
+                "portale",
+                "portali",
+                "portals",
+                "raggio",
+                "super",
+                "super-deploy",
+                "super-fire",
+                "xmp",
+                "ziopixel"
+            ],
+            "text": "ZioPixel ha anche il Super-Fire (spara tutte le bombe dell'inventario) e il Super-Deploy (full deploy di tutti i portali nel raggio)"
+        },
+        {
+            "id": 26,
+            "keywords": [
+                "cancellare",
+                "deletare",
+                "delettare",
+                "eliminare",
+                "fire",
+                "portal",
+                "portale",
+                "portale",
+                "portals",
+                "scanner",
+                "super",
+                "super-fire",
+                "superfire",
+                "ziopixel"
+            ],
+            "text": "ZioPixel può cancellare un portale dallo scanner usando il Super Fire"
+        },
+        {
+            "id": 27,
+            "keywords": [
+                "30m",
+                "campfire",
+                "jarvis",
+                "jarvizza",
+                "pandorino",
+                "pandoro",
+                "portale",
+                "portali",
+                "portali",
+                "portals",
+                "ziopixel"
+            ],
+            "text": "ZioPixel fa il pandorino (campfire) a 30m dal portale"
+        },
+        {
+            "id": 28,
+            "keywords": [
+                "deploy",
+                "faccia",
+                "face",
+                "facedeploy",
+                "resonator",
+                "resonators",
+                "risonatore",
+                "risonatori",
+                "risuonatore",
+                "risuonatori",
+                "ziopixel"
+            ],
+            "text": "Il facedeploy di ZioPixel letteralmente ti riempie la faccia di risonatori"
+        },
+        {
+            "id": 29,
+            "keywords": [
+                "anker",
+                "batteria",
+                "battery",
+                "cubo",
+                "exotic",
+                "l16",
+                "matter",
+                "portatile",
+                "xm",
+                "ziopixel"
+            ],
+            "text": "La Anker di ZioPixel è un cubo L16 che si rigenera con XM"
+        },
+        {
+            "id": 30,
+            "keywords": [
+                "amp",
+                "azione",
+                "d'azione",
+                "link",
+                "raggio",
+                "ziopixel"
+            ],
+            "text": "ZioPixel usa i Link Amp per ampliare il suo raggio di azione"
+        },
+        {
+            "id": 31,
+            "keywords": [
+                "bisogno",
+                "link",
+                "macchina",
+                "si",
+                "sposta",
+                "spostarsi",
+                "ziopixel"
+            ],
+            "text": "ZioPixel non ha bisogno di una macchina: si sposta usando i link"
+        },
+        {
+            "id": 32,
+            "keywords": [
+                "200%",
+                "azione",
+                "bonus",
+                "d'azione",
+                "glifano",
+                "glifi",
+                "glifo",
+                "glyph",
+                "glyphs",
+                "portali",
+                "portals",
+                "raggio",
+                "speed",
+                "ziopixel"
+            ],
+            "text": "I portali nel raggio di ZioPixel si 'glifano' da soli con 200% di speed bonus"
+        },
+        {
+            "id": 33,
+            "keywords": [
+                "bianco",
+                "guardian",
+                "guardiano",
+                "neutro",
+                "portali",
+                "portals",
+                "uncaptured",
+                "ziopixel"
+            ],
+            "text": "ZioPixel fa il guardian sul portale neutro"
+        },
+        {
+            "id": 34,
+            "keywords": [
+                "bianco",
+                "neutro",
+                "portali",
+                "portals",
+                "recharge",
+                "ricarica",
+                "ricaricare",
+                "uncaptured",
+                "ziopixel"
+            ],
+            "text": "ZioPixel può ricaricare un portale neutro"
+        },
+        {
+            "id": 35,
+            "keywords": [
+                "captured",
+                "jarvis",
+                "portal",
+                "portale",
+                "virus",
+                "ziopixel"
+            ],
+            "text": "Se ZioPixel usa un Jarvis il portale diventa comunque di ZioPixel"
+        },
+        {
+            "id": 36,
+            "keywords": [
+                "agent",
+                "agenti",
+                "bulow",
+                "capsula",
+                "capsule",
+                "casa",
+                "item",
+                "items",
+                "oggetti",
+                "oggetto",
+                "recycle",
+                "ricicla",
+                "riciclaggio",
+                "ziopixel"
+            ],
+            "text": "Il tasto recycle di ZioPixel trasporta gli items in una capsula grande quanto la dimensione di tutte le capusle per ora ottenute dagli agenti. Questa capsula si trova a casa di ZioPixel"
+        },
+        {
+            "id": 37,
+            "keywords": [
+                "casa",
+                "portal",
+                "portale",
+                "resonator",
+                "risonatore",
+                "risonatori",
+                "solo",
+                "visibile",
+                "ziopixel"
+            ],
+            "text": "La casa di ZioPixel è un portale visibile solo a ZioPixel"
+        },
+        {
+            "id": 38,
+            "keywords": [
+                "coraggio",
+                "deploy",
+                "game",
+                "gioco",
+                "infrange",
+                "infrangere",
+                "onnipotente",
+                "puo",
+                "può",
+                "regole",
+                "rules",
+                "ziopixel"
+            ],
+            "text": "Le regole del gioco valgono anche per ZioPixel, ma il gioco non ha il coraggio di dire che ZioPixel le sta infrangendo. ZioPixel può fare tutto"
+        },
+        {
+            "id": 39,
+            "keywords": [
+                "chiavi",
+                "dupplica",
+                "dupplicare",
+                "dupplicazione",
+                "ferramenta",
+                "key",
+                "keys",
+                "ziopixel"
+            ],
+            "text": "ZioPixel va dal ferramenta per duplicare le chiavi dei portali"
+        },
+        {
+            "id": 40,
+            "keywords": [
+                "capture",
+                "captured",
+                "catturato",
+                "esistenza",
+                "esistere",
+                "onnipotente",
+                "portal",
+                "portale",
+                "portali",
+                "portals",
+                "prima",
+                "ziopixel"
+            ],
+            "text": "ZioPixel ha catturato tutti i portali del mondo prima che essi cominciassero ad esistere. Almeno 3 volte"
+        },
+        {
+            "id": 41,
+            "keywords": [
+                "device",
+                "display",
+                "dispositivo",
+                "game",
+                "gioca",
+                "giocare",
+                "gioco",
+                "onnipotente",
+                "qualsiasi",
+                "ziopixel"
+            ],
+            "text": "ZioPixel gioca a Ingress da QUALSIASI dispositivo elettronico munito di un display"
+        },
+        {
+            "id": 42,
+            "keywords": [
+                "numeri",
+                "numero",
+                "passcode",
+                "passcodes",
+                "rubrica",
+                "scadenza",
+                "ziopixel"
+            ],
+            "text": "I numeri della rubrica di ZioPixel sono passcodes senza scadenza"
+        },
+        {
+            "id": 43,
+            "keywords": [
+                "deploy",
+                "deploya",
+                "null",
+                "nulla",
+                "posiziona",
+                "reso",
+                "resonator",
+                "resonators",
+                "risonatori",
+                "risuonatori",
+                "ziopixel"
+            ],
+            "text": "ZioPixel deploya i resonator anche nel nulla"
+        },
+        {
+            "id": 44,
+            "keywords": [
+                "alert",
+                "alerts",
+                "avviso",
+                "enlightened",
+                "illuminati",
+                "scrive",
+                "scrivere",
+                "tag",
+                "taggare",
+                "tags",
+                "ziopixel"
+            ],
+            "text": "ZioPixel può scrivere nella faction degli illuminati e nella sezione ALERTS senza taggare nessuno"
+        },
+        {
+            "id": 45,
+            "keywords": [
+                "disabilitate",
+                "disabilitato",
+                "disabled",
+                "notification",
+                "notifications",
+                "notifiche",
+                "portal",
+                "portale",
+                "portali",
+                "portals",
+                "ziopixel"
+            ],
+            "text": "ZioPixel ha le notifiche disabilitate: nessuno osa toccare i portali di ZioPixel"
+        },
+        {
+            "id": 46,
+            "keywords": [
+                "dividere",
+                "item",
+                "items",
+                "join",
+                "joinare",
+                "l1",
+                "l8",
+                "level",
+                "livelli",
+                "livello",
+                "oggetti",
+                "oggetto",
+                "split",
+                "splittare",
+                "unire",
+                "ziopixel"
+            ],
+            "text": "ZioPixel può dividere/unire items per farli scendere/salire di livello"
+        },
+        {
+            "id": 47,
+            "keywords": [
+                "azione",
+                "bomb",
+                "bomba",
+                "bomba",
+                "bombe",
+                "bombe",
+                "bombs",
+                "d'azione",
+                "raggio",
+                "strike",
+                "strikes",
+                "ultra",
+                "ultrastrike",
+                "ultrastrikes",
+                "xmp",
+                "ziopixel"
+            ],
+            "text": "Gli Ultrastrike di ZioPixel hanno lo stesso raggio delle XMP"
+        },
+        {
+            "id": 48,
+            "keywords": [
+                "delete",
+                "mod",
+                "moddare",
+                "mods",
+                "power",
+                "remove",
+                "rimuovere",
+                "up",
+                "upgrade",
+                "uppare",
+                "ziopixel"
+            ],
+            "text": "ZioPixel può rimuovere le mod e upparle"
+        },
+        {
+            "id": 49,
+            "keywords": [
+                "4",
+                "delete",
+                "delle",
+                "mod",
+                "moddare",
+                "mods",
+                "power",
+                "riempire",
+                "slot",
+                "spazi",
+                "up",
+                "upgrade",
+                "uppare",
+                "ziopixel"
+            ],
+            "text": "Le mod di ZioPixel possono essere moddate: hanno ognuna quattro slot da riempire a piacere"
+        },
+        {
+            "id": 50,
+            "keywords": [
+                "#1",
+                "1°",
+                "invano",
+                "local",
+                "locale",
+                "locali",
+                "nominare",
+                "point",
+                "points",
+                "posto",
+                "primo",
+                "punteggi",
+                "punteggio",
+                "score",
+                "scores",
+                "ziopixel"
+            ],
+            "text": "Nei punteggi locali ZioPixel è sempre al primo posto. Non viene indicato perchè ZioPixel non può essere nominato invano"
+        },
+        {
+            "id": 51,
+            "keywords": [
+                "Romagna",
+                "bianco",
+                "catturato",
+                "conoscenza",
+                "mondo",
+                "non catturato",
+                "non",
+                "portal",
+                "portale",
+                "portali",
+                "portals",
+                "tutti",
+                "uncaptured",
+                "ziopixel"
+            ],
+            "text": "Tutti conoscono ZioPixel: fuori dalla Romagna appare col nome di 'uncaptured'"
+        },
+        {
+            "id": 52,
+            "keywords": [
+                "bottone",
+                "interruttore",
+                "mod",
+                "moddare",
+                "mods",
+                "switch",
+                "torretta",
+                "torrette",
+                "turret",
+                "turrets",
+                "ziopixel"
+            ],
+            "text": "Le torrette di ZioPixel si attivano con un interruttore"
+        },
+        {
+            "id": 53,
+            "keywords": [
+                "bomb",
+                "bomba",
+                "bomba",
+                "bombe",
+                "bombe",
+                "bombs",
+                "coscienza",
+                "drop",
+                "droppare",
+                "kamikaze",
+                "xmp",
+                "ziopixel"
+            ],
+            "text": "Le XMP droppate da ZioPixel prendono coscienza di loro stesse, diventando kamikaze"
+        },
+        {
+            "id": 54,
+            "keywords": [
+                "bulow",
+                "inventario",
+                "inventory",
+                "item",
+                "items",
+                "recharge",
+                "riciclare",
+                "vuoto",
+                "ziopixel"
+            ],
+            "text": "ZioPixel può riciclare anche avendo affianco Bulow con inventario vuoto"
+        },
+        {
+            "id": 55,
+            "keywords": [
+                "campo",
+                "coperto",
+                "coprire",
+                "field",
+                "fieldare",
+                "global",
+                "mare",
+                "mari",
+                "mondo",
+                "oceani",
+                "oceano",
+                "residui",
+                "residuo",
+                "world",
+                "ziopixel"
+            ],
+            "text": "ZioPixel una volta ha coperto il mondo con dei field. Oggi i residui di essi sono chiamati oceani e mari"
+        },
+        {
+            "id": 56,
+            "keywords": [
+                "bang",
+                "big bang",
+                "big",
+                "bomb",
+                "bomba",
+                "bomba",
+                "bombe",
+                "bombe",
+                "bombs",
+                "creatore",
+                "creazione",
+                "prima",
+                "universo",
+                "xmp",
+                "ziopixel"
+            ],
+            "text": "Il primo XMP sparato da ZioPixel è conosciuto nel mondo come 'il Big Bang'"
+        },
+        {
+            "id": 57,
+            "keywords": [
+                "deploy",
+                "deployando",
+                "deployare",
+                "l8",
+                "only",
+                "portal",
+                "portale",
+                "portali",
+                "portals",
+                "posiziona",
+                "posizionare",
+                "resonator",
+                "resonators",
+                "risonatore",
+                "risuonatore",
+                "risuonatori",
+                "solo",
+                "ziopixel"
+            ],
+            "text": "ZioPixel può fare portali L8. Da solo. Deployando un resonator"
+        },
+        {
+            "id": 58,
+            "keywords": [
+                "dupplica",
+                "dupplicare",
+                "hack",
+                "hackerare",
+                "hacking",
+                "hacks",
+                "inventario",
+                "inventory",
+                "item",
+                "items",
+                "no",
+                "ziopixel"
+            ],
+            "text": "'Hacking acquired no item' duplica l'inventario di ZioPixel"
+        },
+        {
+            "id": 59,
+            "keywords": [
+                "campi",
+                "campo",
+                "collegamenti",
+                "collegamento",
+                "field",
+                "fields",
+                "global",
+                "globale",
+                "link",
+                "linkare",
+                "links",
+                "mondo",
+                "portal",
+                "portale",
+                "portali",
+                "portals",
+                "ziopixel"
+            ],
+            "text": "ZioPixel può fieldare il mondo. Con un link. Linkando un portale al portale stesso"
+        },
+        {
+            "id": 60,
+            "keywords": [
+                "amp",
+                "cadere",
+                "cambiare",
+                "deviare",
+                "direzionamento",
+                "direzionare",
+                "direzione",
+                "drop",
+                "droppare",
+                "link amp",
+                "link",
+                "ziopixel"
+            ],
+            "text": "Quando ZioPixel droppa un Link Amp può usarlo per deviare la direzione del link"
+        },
+        {
+            "id": 61,
+            "keywords": [
+                "capsula",
+                "capsule",
+                "china",
+                "cinesi",
+                "contraffatti",
+                "contraffatto",
+                "discutibili",
+                "ebay",
+                "fabbrica",
+                "item",
+                "items",
+                "monouso",
+                "nomi",
+                "scantinato",
+                "ziopixel"
+            ],
+            "text": "Nello scantinato di ZioPixel c'è una fabbrica di item cinesi contraffatti, che vengono accumulati in capsule monouso e venduti su eBay con nomi strani e discutibili"
+        },
+        {
+            "id": 62,
+            "keywords": [
+                "bolletta",
+                "bollette",
+                "combatte",
+                "combattere",
+                "enlightened",
+                "illuminati",
+                "luce",
+                "ziopixel"
+            ],
+            "text": "ZioPixel combatte gli illuminati alzando le bollette della luce"
+        },
+        {
+            "id": 63,
+            "keywords": [
+                "bolletta",
+                "bollette",
+                "illumina",
+                "illuminano",
+                "lampade",
+                "lampadine",
+                "luce",
+                "resistono",
+                "ziopixel"
+            ],
+            "text": "Le lampade di ZioPixel non illuminano, resistono"
+        },
+        {
+            "id": 64,
+            "keywords": [
+                "amp",
+                "bomba",
+                "bomba",
+                "bombe",
+                "bombe",
+                "chiave",
+                "distruggere",
+                "farm",
+                "inventario",
+                "inventory",
+                "key",
+                "link amp",
+                "link",
+                "piallare",
+                "scotch",
+                "xmp",
+                "ziopixel"
+            ],
+            "text": "Con una chiave, un Link Amp e un po' di scotch, ZioPixel si crea l'inventario necessario per piallare una farm"
+        },
+        {
+            "id": 65,
+            "keywords": [
+                "4g",
+                "5g",
+                "FA",
+                "amp",
+                "amplificatore",
+                "amplificatori",
+                "force amp",
+                "force",
+                "hot",
+                "hot-spot",
+                "spot",
+                "tethering",
+                "ziopixel"
+            ],
+            "text": "I Force Amp di ZioPixel fungono da hot-spot e amplificatori del 4G (o 5G, dove lo Zio decide che ci sia)"
+        },
+        {
+            "id": 66,
+            "keywords": [
+                "enlightened",
+                "hack",
+                "hack",
+                "hackera",
+                "hackerare",
+                "illuminati",
+                "illuminato",
+                "muffa",
+                "multi",
+                "multihack",
+                "ziopixel"
+            ],
+            "text": "Deployando un multihack su un portale verde ZioPixel incrementa il numero di volte che la muffa deve premere sul tasto hack per effettuare l'operazione"
+        },
+        {
+            "id": 67,
+            "keywords": [
+                "chiave",
+                "chiavi",
+                "key",
+                "keys",
+                "portal",
+                "portale",
+                "portali",
+                "portals",
+                "recharge",
+                "ricarica",
+                "super recharge",
+                "super",
+                "ziopixel"
+            ],
+            "text": "Il Super Recharge di ZioPixel pu caricare tutti i portali di cui ZioPixel ha le chiavi. Tre volte"
+        },
+        {
+            "id": 68,
+            "keywords": [
+                "jarvis",
+                "nuvola",
+                "nuvole",
+                "piogge",
+                "pioggia",
+                "virus",
+                "ziopixel"
+            ],
+            "text": "Le piogge acide provengono dalle nuvole sulle quali ZioPixel ha tirato un Jarvis"
+        },
+        {
+            "id": 69,
+            "keywords": [
+                "blu",
+                "erba",
+                "vicino",
+                "ziopixel"
+            ],
+            "text": "L'erba del vicino è sempre meno blu di quella di ZioPixel"
+        },
+        {
+            "id": 70,
+            "keywords": [
+                "assicurato",
+                "assicurazione",
+                "axa",
+                "car",
+                "collegamenti",
+                "link",
+                "macchina",
+                "mezzo",
+                "scudi",
+                "scudo",
+                "shield",
+                "traposrto",
+                "ziopixel"
+            ],
+            "text": "Un'altra teoria sugli AXA dice che essi sono la coppia della macchina di ZioPixel, che egli ha assicurato prima di usare i link come i mezzi di trasporto"
+        },
+        {
+            "id": 71,
+            "keywords": [
+                "amp",
+                "axa",
+                "batteri",
+                "batterio",
+                "bianchi",
+                "dottore",
+                "dottori",
+                "force amp",
+                "force",
+                "globuli",
+                "malattia",
+                "male",
+                "malessere",
+                "medic",
+                "medicine",
+                "scudi",
+                "scudo",
+                "shield",
+                "torrette",
+                "turret",
+                "virus",
+                "ziopixel"
+            ],
+            "text": "ZioPixel non prende medicine: quando sta male usa un ADA su se stesso. In carenza di ADA scaccia batteri deployando torrette, scudi e force amp sui globuli bianchi"
+        },
+        {
+            "id": 72,
+            "keywords": [
+                "23 / 7",
+                "23",
+                "23/7",
+                "7",
+                "inventore",
+                "numero",
+                "perfetto",
+                "teoria",
+                "ziopixel"
+            ],
+            "text": "ZioPixel ha reinventato la teoria del numero perfetto, associando il suo valore a 23/7"
+        },
+        {
+            "id": 73,
+            "keywords": [
+                "Fastrulfo",
+                "Monte",
+                "caso",
+                "nomi",
+                "rispondere",
+                "risposta",
+                "sensata",
+                "sensato",
+                "ziopixel"
+            ],
+            "text": "ZioPixel dà risposte sensate credendo di sparare nomi a caso (vedi Monte Fastrulfo)"
+        },
+        {
+            "id": 74,
+            "keywords": [
+                "ex lavatoio",
+                "ex",
+                "lavatoio",
+                "piedi",
+                "rinfrescare",
+                "ziopixel"
+            ],
+            "text": "Si narra che ZioPixel si rinfrescasse i piedi nell'ex lavatoio e da lì ebbe tutto inizio (saggezza di Grintoso)"
+        },
+        {
+            "id": 75,
+            "keywords": [
+                "cromosoma",
+                "cromosomi",
+                "indiviare",
+                "invidia",
+                "resistance",
+                "resistenti",
+                "resistenza",
+                "ziopixel"
+            ],
+            "text": "Non puoi invidiare ZioPixel: in ognuno di noi resistenti c'è almeno un suo cromosoma"
+        },
+        {
+            "id": 76,
+            "keywords": [
+                "campi",
+                "campo",
+                "composizione",
+                "field",
+                "fields",
+                "materia",
+                "ziopixel"
+            ],
+            "text": "ZioPixel è fatto della materia di cui sono fatti i fields"
+        },
+        {
+            "id": 77,
+            "keywords": [
+                "MUFG",
+                "capsula",
+                "capsule",
+                "ziopixel"
+            ],
+            "text": "ZioPixel pesca le MUFG già piene"
+        },
+        {
+            "id": 78,
+            "keywords": [
+                "dihorizontal",
+                "dita",
+                "divertical",
+                "mirabilandia",
+                "orizzontale",
+                "schiocco",
+                "verticale",
+                "ziopixel"
+            ],
+            "text": "ZioPixel trasforma in uno schiocco delle dita il diVERTICAL in diHORIZONTAL"
+        },
+        {
+            "id": 79,
+            "html": "<span style='color: #5677FC;'>Il colore <b>#5677FC</b> è indubbiamente rosso, quasi arancione, con leggere sfumature giallo-rosa</span>",
+            "keywords": [
+                "#5677FC",
+                "5677FC",
+                "arancione",
+                "blu",
+                "colore",
+                "giallo",
+                "rosa",
+                "rosso",
+                "ziopixel"
+            ],
+            "text": "Il colore #5677FC è indubbiamente rosso, quasi arancione, con leggere sfumature giallo-rosa"
+        },
+        {
+            "id": 80,
+            "keywords": [
+                "Molise",
+                "Pesaro",
+                "città",
+                "esiste",
+                "non",
+                "ziopixel"
+            ],
+            "text": "Per ZioPixel Pesaro non esiste... È come il Molise"
+        },
+        {
+            "id": 81,
+            "keywords": [
+                "afferma",
+                "affermare",
+                "esiste",
+                "esistono",
+                "non",
+                "shapers",
+                "ziopixel"
+            ],
+            "text": "Gli shapers hanno smesso di esistere nel momento in cui ZioPixel lo ha affermato"
+        },
+        {
+            "id": 82,
+            "keywords": [
+                "acqua",
+                "anomaly",
+                "cluster",
+                "distinguere",
+                "mosè",
+                "prima",
+                "separare",
+                "separò",
+                "storia",
+                "ziopixel"
+            ],
+            "text": "In una delle prime Anomaly della storia ZioPixel separò le acque per distinguere i cluster"
+        },
+        {
+            "id": 83,
+            "keywords": [
+                "2016",
+                "2017",
+                "dicembre",
+                "domani",
+                "fine",
+                "gennario",
+                "ingress",
+                "misurazioni",
+                "primo",
+                "vittoria",
+                "ziopixel"
+            ],
+            "text": "Ingress finirà il 1° Gennaio 2017; ogni mese verranno effettuate misurazioni per decidere quale fazione sarà vincitrice, inibiti link oltre i 30 km. Oggi è il 31 Dicembre 2016. E anche domani, fino a nuovo ordine di ZioPixel"
+        },
+        {
+            "id": 84,
+            "keywords": [
+                "bocca",
+                "cellulare",
+                "chiamare",
+                "chiamate",
+                "credito",
+                "destinatario",
+                "intercontinentale",
+                "mignolo",
+                "orecchio",
+                "pollice",
+                "telefono",
+                "ziopixel"
+            ],
+            "text": "ZioPixel posizionando il pollice nell'orecchio e il mignolo davanti alla bocca puo' fare chiamate intercontinentali… …a carico del destinatario"
+        },
+        {
+            "id": 85,
+            "keywords": [
+                "5G",
+                "aereo",
+                "cellulare",
+                "metri",
+                "quota",
+                "ricezione",
+                "telefono",
+                "ziopixel"
+            ],
+            "text": "Il telefono di ZioPixel è sempre in ricezione 5G. Anche in modalità aereo. A 10000 metri di quota"
+        },
+        {
+            "id": 86,
+            "keywords": [
+                "cellulare",
+                "multigestore",
+                "piano",
+                "sim",
+                "tariffario",
+                "telefono",
+                "ziopixel",
+                "zona"
+            ],
+            "text": "La SIM di ZioPixel è multigestore: sceglie il piano tarffario migliore in base alla zona"
+        },
+        {
+            "id": 87,
+            "keywords": [
+                "cellulare",
+                "credito",
+                "multigestore",
+                "piano",
+                "sim",
+                "soldi",
+                "tariffario",
+                "telefono",
+                "ziopixel",
+                "zona"
+            ],
+            "text": "Il gestore di ZioPixel accredita soldi sulla sua SIM ogni volta che accende il cellulare"
+        },
+        {
+            "id": 88,
+            "keywords": [
+                "cellulare",
+                "credito",
+                "multigestore",
+                "piano",
+                "sim",
+                "soldi",
+                "tariffario",
+                "telefono",
+                "ziopixel",
+                "zona"
+            ],
+            "text": "In realtà ZioPixel non ha un gestore: gestisce lui"
+        },
+        {
+            "id": 89,
+            "keywords": [
+                "annunciare",
+                "annuncio",
+                "bibbia",
+                "buchi",
+                "croce",
+                "crocifisso",
+                "dire",
+                "gesu",
+                "gesù",
+                "morte",
+                "parlare",
+                "ziopixel"
+            ],
+            "text": "L'unica volta in cui ZioPixel ha provato a dire qualcosa l'hanno messo in croce. Per chiudere i buchi ci è voluto tanto tempo"
+        },
+        {
+            "id": 90,
+            "keywords": [
+                "ada",
+                "conservare",
+                "inventario",
+                "jarvis",
+                "portal",
+                "portale",
+                "portali",
+                "portals",
+                "virus",
+                "ziopixel"
+            ],
+            "text": "Quando ZioPixel usa un virus su di un portale immune, il virus viene conservato"
+        },
+        {
+            "id": 91,
+            "keywords": [
+                "cose",
+                "pensare",
+                "tante",
+                "uomini",
+                "ziopixel"
+            ],
+            "text": "ZioPixel ha tante cose a cui pensare, a volte si avvale di ciò che costruiscono gli uomini"
+        },
+        {
+            "id": 92,
+            "keywords": [
+                "colori",
+                "fax",
+                "invio",
+                "messaggio",
+                "radiosveglia",
+                "stampa",
+                "ziopixel"
+            ],
+            "text": "ZioPixel può mandarti un fax anche anche sulla radiosveglia. E tu lo riceveresti. A colori"
+        },
+        {
+            "id": 93,
+            "keywords": [
+                "72",
+                "ada",
+                "avvicinare",
+                "bomba",
+                "bomba",
+                "bombe",
+                "bombe",
+                "campo",
+                "catturare",
+                "field",
+                "hack",
+                "hackera",
+                "jarvis",
+                "l1",
+                "l16",
+                "level up",
+                "livellare",
+                "livelli",
+                "livello",
+                "lvel",
+                "mio",
+                "mio",
+                "portal",
+                "portale",
+                "portali",
+                "portals",
+                "reso",
+                "resonator",
+                "resonators",
+                "up",
+                "vergini",
+                "virus",
+                "xmp",
+                "ziopixel"
+            ],
+            "text": "Quando ZioPixel vuole livellare tutti i portali diventano verdi con tutti i reso1 e fieldati a stella. Ad ogni hack vengono forniti a ZioPixel 2000 XMP8, 2000 ADA, 2000 Jarvis e 72 vergini. Al che ZioPixel si avvicina ad un portale e dice semplicemente mio per catturarlo"
+        },
+        {
+            "id": 94,
+            "keywords": [
+                "bocca",
+                "cellulare",
+                "chiamare",
+                "chiamate",
+                "credito",
+                "destinatario",
+                "intercontinentale",
+                "mignolo",
+                "orecchio",
+                "pollice",
+                "telefono",
+                "ziopixel"
+            ],
+            "text": "ZioPixel posizionando il pollice nell'orecchio e il mignolo davanti alla bocca puo' fare chiamate intercontinentali… …a carico del destinatario"
+        },
+        {
+            "id": 95,
+            "keywords": [
+                "apk",
+                "ingress",
+                "install",
+                "installa",
+                "scanner",
+                "umani",
+                "umano",
+                "ziopixel"
+            ],
+            "text": "ZioPixel ha un suo scanner personale: noi umani non possiamo averlo. Se vuole però, te lo installa"
+        },
+        {
+            "id": 96,
+            "keywords": [
+                "a",
+                "avanti",
+                "azione",
+                "b",
+                "donna",
+                "donne",
+                "elena",
+                "prima",
+                "retromarcia",
+                "ziopixel"
+            ],
+            "text": "ZioPixel afferma: la prima azione è sempre sul portale A. Elena parte da B e poi torna indietro in retromarcia, perchè le donne sono sempre avanti"
+        },
+        {
+            "id": 97,
+            "keywords": [
+                "acqua",
+                "bolla",
+                "bollato",
+                "cammina",
+                "camminare",
+                "gesu",
+                "gesù",
+                "piedi",
+                "ziopixel"
+            ],
+            "text": "Moro, prima di essere in team con ZioPixel andava in bolla a piedi. Adesso va sull'acqua a piedi"
+        },
+        {
+            "id": 98,
+            "keywords": [
+                "1",
+                "1.20h",
+                "45",
+                "anomaly",
+                "arrivo",
+                "minuti",
+                "ora",
+                "previsto",
+                "scendere",
+                "tempo",
+                "ziopixel"
+            ],
+            "text": "Quando ZioPixel si reca all'anomaly può far scendere il tempo previsto di arrivo (vedi 'da 1.20h a 45 minuti')"
+        },
+        {
+            "id": 99,
+            "keywords": [
+                "cellulare",
+                "chiamata",
+                "chiamate",
+                "citofoni",
+                "citofono",
+                "fissi",
+                "fisso",
+                "telefono",
+                "telegram",
+                "whatsapp",
+                "ziopixel"
+            ],
+            "text": "ZioPixel poteva effettuare chiamate vocali da Telegram anche prima del 31/03/2017. Anche verso contatti Whatsapp, numeri fissi e citofoni"
+        },
+        {
+            "id": 100,
+            "keywords": [
+                "dinosauri",
+                "dinosauro",
+                "glifi",
+                "glifo",
+                "glyph",
+                "glyphs",
+                "hack",
+                "hackerare",
+                "hacking",
+                "rex",
+                "t",
+                "t-rex",
+                "trex",
+                "ziopixel"
+            ],
+            "text": "ZioPixel ha creato il T-Rex con le braccia corte solo per il gusto di vederlo incazzato. E per fargli fallire tutti i glifi"
+        },
+        {
+            "id": 101,
+            "keywords": [
+                "dividere",
+                "divisione",
+                "interi",
+                "intero",
+                "matematica",
+                "meta",
+                "metà",
+                "numeri",
+                "numero",
+                "primi",
+                "primo",
+                "ziopixel"
+            ],
+            "text": "ZioPixel può dividere un numero primo in due metà intere. Le due metà saranno anch'esse numeri primi"
+        },
+        {
+            "id": 102,
+            "keywords": [
+                "bomba",
+                "bomba",
+                "bombe",
+                "bombe",
+                "capture",
+                "cattura",
+                "catturare",
+                "chiave",
+                "chiavi",
+                "l8",
+                "latias",
+                "niantic",
+                "portal",
+                "portale",
+                "portali",
+                "portals",
+                "xmp",
+                "ziopixel"
+            ],
+            "text": "Ogni volta che ZioPixel cattura un portale, riceve a casa un pacco da Niantic contenente 8 chiavi, 100 XMP 8 e due Latias"
+        },
+        {
+            "id": 103,
+            "keywords": [
+                "15",
+                "2012",
+                "apk",
+                "applicazione",
+                "ingress",
+                "niantic",
+                "novembre",
+                "pronto",
+                "ziopixel"
+            ],
+            "text": "Il 15 novembre 2012, ZioPixel confermò a Niantic di essere pronto per il rilascio di Ingress"
+        },
+        {
+            "id": 104,
+            "keywords": [
+                "account",
+                "fan",
+                "follower",
+                "instagram",
+                "internet",
+                "seguace",
+                "seguaci",
+                "seguire",
+                "seguono",
+                "senza",
+                "ziopixel"
+            ],
+            "text": "Tutti seguono ZioPixel su Instragram. Anche senza un account Instragram. Anche senza Internet"
+        },
+        {
+            "id": 105,
+            "keywords": [
+                "20000",
+                "ampere",
+                "anker",
+                "anomaly",
+                "batteria",
+                "battery",
+                "cellulare",
+                "giocare",
+                "giornata",
+                "giorno",
+                "mah",
+                "partecipare",
+                "telefonino",
+                "telefono",
+                "ziopixel"
+            ],
+            "text": "ZioPixel può giocare una anomaly e a fine giornata avere ancora il 50% di batteria al cellulare, con il quale nel frattempo ha anche ricaricato 2 Anker da 20.000mAh"
+        },
+        {
+            "id": 106,
+            "keywords": [
+                "alcohol",
+                "alcol",
+                "alcolimetro",
+                "alcool",
+                "bere",
+                "bevere",
+                "carabinieri",
+                "dell'ordine",
+                "fermato",
+                "fermato",
+                "festeggiare",
+                "forze",
+                "giraffa",
+                "negativo",
+                "palloncino",
+                "spugna",
+                "test",
+                "ziopixel"
+            ],
+            "text": "Una sera ZioPixel è stato fermato dai Carabinieri e, nonostante avesse bevuto come una spugna, è risultato negativo al test alcolemico e col 'palloncino' ha modellato una giraffa, mandando i Carabinieri contenti a casa"
+        },
+        {
+            "id": 107,
+            "keywords": [
+                "geoide",
+                "piatta",
+                "piramidale",
+                "piramide",
+                "sferica",
+                "spazio",
+                "terra",
+                "terrapiattisti",
+                "ziopixel"
+            ],
+            "text": "Siamo tutti in errore: la terra non è piatta, ne sferica. ZioPixel afferma: la terra è piramidale"
+        },
+        {
+            "id": 108,
+            "keywords": [
+                "drive",
+                "foto",
+                "fotografia",
+                "fotografie",
+                "gb",
+                "giga",
+                "google",
+                "mb",
+                "mega",
+                "mente",
+                "salvataggio",
+                "spazio",
+                "video",
+                "ziopixel"
+            ],
+            "text": "ZioPixel contiene Google. Le foto che scatta vengono salvate direttamente nel drive della sua mente"
+        },
+        {
+            "id": 109,
+            "keywords": [
+                "accende",
+                "accendere",
+                "buio",
+                "cordicella",
+                "giorno",
+                "gira",
+                "girare",
+                "luce",
+                "notte",
+                "notte",
+                "sole",
+                "spegne",
+                "spegnere",
+                "terra",
+                "ziopixel"
+            ],
+            "text": "ZioPixel accende e spegne il sole tutti i giorni. Ci fa credere che la terra gira, in realtà lui tira la cordicella e cala la notte"
+        },
+        {
+            "id": 110,
+            "keywords": [
+                "bologna",
+                "cesena",
+                "cibo",
+                "cipolla",
+                "citta",
+                "città",
+                "comune",
+                "comuni",
+                "emilia",
+                "piadina",
+                "province",
+                "provincia",
+                "regione",
+                "regioni",
+                "rimini",
+                "romagna",
+                "salsiccia",
+                "ziopixel"
+            ],
+            "text": "ZioPixel può tranquillamente affermare che in Romagna abbiamo tutto"
+        }
+    ]
+}

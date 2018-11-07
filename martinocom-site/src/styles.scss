@@ -1,3 +1,8 @@
+$padding-small: 10px;
+$margin-small: 10px;
+$padding-big: 50px;
+$margin-big: 50px;
+
 html, body {
     margin: 0;
     padding: 0;
@@ -5,6 +10,12 @@ html, body {
     background: #FFFFFF;
     height: 100% !important;
     min-height: 100% !important;
+    background: #e5e5e5;
+
+    background: url("./assets/images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 *, *:before, *:after {
@@ -54,5 +65,85 @@ html, body {
 
     &.wrapped {
         flex-wrap: wrap;
+    }
+}
+
+h1, .subtitle {
+    color: white;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.page-container {
+    margin-top: $margin-small;
+}
+
+.box {
+    background: white;
+    padding: $padding-small;
+}
+
+
+.page-list {
+    list-style: none;
+    margin: 0px;
+    margin-top: $margin-small;
+    padding: 0px;
+
+    & li {
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0.7);
+        margin-top: 5px;
+        padding: $padding-small;
+    }
+}
+
+
+
+@media only screen and (min-width: 700px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    .subtitle {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    .page-container {
+        margin-top: 50px;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .page-list {
+        margin-top: $margin-big/2;
+
+        & li {
+            padding-left: $padding-big;
+            padding-right: $padding-big;
+        }
+    }
+
+    .box {
+        margin-top: $padding-big;
     }
 }
