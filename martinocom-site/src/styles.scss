@@ -7,21 +7,23 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #FFFFFF;
     height: 100% !important;
     min-height: 100% !important;
-    background: #e5e5e5;
+    background: #F3F6FA;
+}
 
-    /*background: url("./assets/images/background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
+.no-scroll {
+    overflow: hidden;
 }
 
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+}
+
+* {
+    color: #1a1a1a;
 }
 
 :focus, :active {
@@ -73,9 +75,14 @@ h1, .subtitle {
     text-align: center;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
     margin: 0;
     padding: 0;
+}
+
+h3 {
+    margin: 20px;
+    display: none;
 }
 
 h1 {
@@ -86,14 +93,19 @@ h2 {
     margin-bottom: 5px;
 }
 
+h4 {
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5em;
+    color: #464646;
+    font-variant: small-caps;
+    font-weight: 300;
+}
+
 .subtitle {
     font-style: italic;
     font-size: 1em;
     margin-bottom: 10px;
-}
-
-.page-container {
-    margin: $margin-small;
 }
 
 .box {
@@ -104,29 +116,48 @@ h2 {
 
 .page-list {
     list-style: none;
-    margin: 0px;
     border-radius: 5px;
-    margin-top: $margin-small;
     padding: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
-    background: white;
+    margin: 0px;
 
     & li {
-        //border-radius: 5px;
-        //background: rgba(255, 255, 255, 0.7);
-        padding: $padding-small;
-        margin-left: 10px;
-        margin-right: 10px;
-        border-bottom: 1px solid gray;
+        background: white;
+        padding: 2%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 1px;
     }
 }
 
+.chute {
+    border-radius: 25px;
+    width: 99px;
+    height: 105px;
+    background-image: url("assets/images/small-banana.gif");
+    position: absolute;
+    opacity: 1;
 
+    &.small {
+        width: 45px;
+        height: 52px;
+        background-size: 100%;
+    }
+}
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 800px) {
     h1 {
         font-size: 4em;
+    }
+
+    h3 {
+        display: block;
+        font-size: 2em;
+        text-align: center;
+        color: rgb(124, 128, 129);
+        font-weight: 300;
+        font-variant: small-caps;
     }
 
     .subtitle {
@@ -135,22 +166,42 @@ h2 {
     }
 
     .page-container {
-        margin-top: 50px;
-        width: 70%;
+        margin: $margin-small;
         margin-left: auto;
+        width: 90%;
         margin-right: auto;
     }
 
     .page-list {
-        margin-top: $margin-big/2;
+        border: 1px solid lightgray;
+        background: white;
 
         & li {
+            background: none;
+            padding: $padding-small;
+            margin: 0;
             margin-left: 30px;
             margin-right: 30px;
+            border-bottom: 1px solid lightgray;
         }
     }
 
     .box {
         margin-top: $padding-big;
+        border: 1px solid lightgray;
+        padding: $padding-big;
+        padding-top: $padding-big/1.5;
+        padding-bottom: $padding-big/1.5;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .page-container {
+        margin-top: $margin-big;
+        width: 70%;
+    }
+
+    h3 {
+        margin: $margin-big;
     }
 }

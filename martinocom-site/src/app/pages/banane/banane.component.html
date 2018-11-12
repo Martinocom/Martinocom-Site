@@ -1,1 +1,21 @@
-<app-navigator title="Banane"></app-navigator>
+<div id="main">
+  <app-navigator title="Banane"></app-navigator>
+
+  <div class="page-container">
+    <h3>
+      Banane
+    </h3>
+    
+    <h4>
+      Ti piacciono le radiazioni?
+    </h4>
+
+    <h5 id="noLinksHeader" class="centered">
+      {{text}}
+    </h5>
+
+    <div class="flex">
+      <img class="animated pulse" src="../../../assets/images/banana.gif" (click)="onBananaClick()"/>
+    </div>
+  </div>
+</div>

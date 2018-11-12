@@ -1,0 +1,25 @@
+img {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+
+    li {
+        padding: 5px;
+        border-bottom: 1px solid lightgray;
+
+        div {
+            font-weight: 600;
+            font-variant: small-caps;
+            display: inline-block;
+            width: 125px;
+            max-width: 125px;
+            min-width: 125px;
+        }
+    }
+}

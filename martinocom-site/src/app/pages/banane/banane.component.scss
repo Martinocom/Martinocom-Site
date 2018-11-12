@@ -1,0 +1,62 @@
+* {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+h4, h5 {
+    text-align: center;
+    color: rgb(124, 128, 129);
+    font-weight: 300;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-variant: small-caps;
+}
+
+h5 {
+    margin: 0;
+    font-variant: normal;
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    z-index: 999999;
+}
+
+.animated {
+    animation-duration: 500ms;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+
+.pulse {
+    animation-name: pulse;
+    animation-duration: 1s;
+}
+
+
+img {
+    z-index: 999999;
+}
+
+.chute {
+    z-index: -1;
+}

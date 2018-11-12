@@ -3,41 +3,41 @@ $size: 48px;
 .top-bar, .small, .large {
     height: $size;
     width: 100%;
+    font-variant: small-caps;
 }
 
 .top-bar {
-    background: white;
+    background: #2b57a1;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
+}
+
+.title {
+    color: white;
 }
 
 .small {
     display: flex;
 }
 
-.large {
+.medium, .large {
     display: none;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 800px) {
+    .top-bar {
+        background: white;
+    }
+
     .small {
         display: none;
     }
-    
+
     .large {
         display: flex;
 
         & > .filler{
             flex-grow: 1;
         }
-    }
-
-    .header {
-        font-size: 1.3em;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .middle {
-        width: 70%;
     }
 
     .self-aligned {
@@ -64,10 +64,10 @@ $size: 48px;
     
         &.active {
             color: white;
-            background: #353535;
+            background: #2b57a1;
 
             &:hover {
-                background: #424242;
+                background: #3262b6;
             }
         }
     }
@@ -80,5 +80,30 @@ $size: 48px;
     .filler {
         background: white;
         height: $size;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .self-aligned {
+        width: 100%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .medium {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .self-aligned {
+        width: 70%;
+        margin: 0;
+    }
+
+    .header {
+        font-size: 1.3em;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
