@@ -23,11 +23,19 @@ html, body {
 }
 
 * {
-    color: #1a1a1a;
+    color: #242424;
 }
 
 :focus, :active {
     outline: 0 !important;
+}
+
+a {
+    color: #5787da;
+
+    &:hover {
+        color: #6c9ff8;
+    }
 }
 
 .flex {
@@ -95,11 +103,11 @@ h2 {
 
 h4 {
     font-size: 2em;
-    letter-spacing: 0.1em;
+    letter-spacing: 2px;
     margin-bottom: 0.5em;
     color: #464646;
     font-variant: small-caps;
-    font-weight: 300;
+    font-weight: 500;
 }
 
 .subtitle {
@@ -111,6 +119,10 @@ h4 {
 .box {
     background: white;
     padding: $padding-small;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
 }
 
 

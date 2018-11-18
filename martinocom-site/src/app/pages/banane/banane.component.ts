@@ -30,8 +30,8 @@ export class BananeComponent implements OnInit {
     $('<div/>', { class: 'chute small' }).appendTo('#main');
 
     var box = $('#main');
-    var width = box.width();
-    var height = box.height() + 100;
+    var width = box.width() - 50;
+    var height = box.height() + 300;
     var chute = $('.chute');
 
     chute.each(function foo() {
