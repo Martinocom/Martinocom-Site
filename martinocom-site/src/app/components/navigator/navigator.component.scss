@@ -23,22 +23,58 @@ fa {
 
 .flex {
     width: 100%;
-    margin-left: -48px;
+}
+
+.menu {
+    position: absolute;
+    z-index: 9999;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.nav-button {
+    height: $size;
+    line-height: $size;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid lightgrey;
+
+    background: white;
+
+    &:hover {
+        background: #f4f4f4;
+    }
+
+    &:active {
+        background: #eaeaea;
+    }
+
+    &.active {
+        display: none;
+    }
 }
 
 .top-bar, .small, .large {
     height: $size;
     width: 100%;
     font-variant: small-caps;
+
 }
 
 .top-bar {
     background: #2b57a1;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 .title {
     color: white;
+    margin-left: -48px;
+    font-size: 20px;
+    letter-spacing: 2px;
 }
 
 .small {
@@ -52,6 +88,10 @@ fa {
 @media only screen and (min-width: 800px) {
     .top-bar {
         background: white;
+    }
+    
+    .menu {
+        display: none;
     }
 
     .small {
@@ -77,6 +117,7 @@ fa {
         width: 150px;
         text-align: center;
         cursor: pointer;
+        border: none;
     
         background: white;
     

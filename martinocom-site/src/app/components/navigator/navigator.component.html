@@ -1,14 +1,11 @@
 <div class="top-bar">
   <div class="small">
-      <fa name="bars"></fa>
+    <fa class="white" name="bars" (click)="onBarsClick()"></fa>
 
-      <div class="flex horizontal">
-          <div class="title">
-            {{title}}
-          </div>
-        </div>
+    <div class="flex horizontal title">
+      {{title}}
+    </div>
   </div>
-
 
   <div class="flex horizontal large">
     <div class="flex horizontal middle self-aligned">
@@ -25,4 +22,12 @@
       </div>
     </div>
   </div>
+</div>
+
+<div class="flex vertical menu" *ngIf="isMenuVisible">
+  <div class="nav-button" routerLink="/index" routerLinkActive="active">Home</div>
+  <div class="nav-button" routerLink="/ingress" routerLinkActive="active">Ingress</div>
+  <div class="nav-button" routerLink="/ziopixel" routerLinkActive="active">Verità ZioPixel</div>
+  <div class="nav-button" routerLink="/universita" routerLinkActive="active">Università</div>
+  <div class="nav-button" routerLink="/banane" routerLinkActive="active">Banane</div>
 </div>
