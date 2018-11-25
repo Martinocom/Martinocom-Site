@@ -1,5 +1,31 @@
 $size: 48px;
 
+fa {
+    width: $size;
+    height: $size;
+    min-width: $size;
+    min-height: $size;
+    line-height: $size;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    z-index: 9999;
+    background: #1c3e79;
+
+    &:hover {
+        background: #244a8d;
+    }
+
+    &:active {
+        background: #2f5ca8;
+    }
+}
+
+.flex {
+    width: 100%;
+    margin-left: -48px;
+}
+
 .top-bar, .small, .large {
     height: $size;
     width: 100%;
