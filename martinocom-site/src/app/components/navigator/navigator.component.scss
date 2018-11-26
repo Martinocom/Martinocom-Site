@@ -26,7 +26,8 @@ fa {
 }
 
 .menu {
-    position: absolute;
+    position: fixed;
+    margin-top: -15px;
     z-index: 9999;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -60,10 +61,12 @@ fa {
     height: $size;
     width: 100%;
     font-variant: small-caps;
-
 }
 
 .top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
     background: #2b57a1;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -71,8 +74,9 @@ fa {
 }
 
 .title {
+    justify-content: flex-start;
+    margin-left: 25px;
     color: white;
-    margin-left: -48px;
     font-size: 20px;
     letter-spacing: 2px;
 }
@@ -86,6 +90,10 @@ fa {
 }
 
 @media only screen and (min-width: 800px) {
+    .flex {
+        width: auto;
+    }
+
     .top-bar {
         background: white;
     }
@@ -125,11 +133,8 @@ fa {
             background: #f4f4f4;
         }
     
-        &:active {
-            background: #eaeaea;
-        }
-    
         &.active {
+            display: inline-block;
             color: white;
             background: #2b57a1;
 

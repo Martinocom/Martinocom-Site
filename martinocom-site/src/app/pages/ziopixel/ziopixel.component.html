@@ -10,15 +10,17 @@
   </div>
 
   <ul class="page-list info" *ngIf="!isAllOk">
-    <li *ngIf="isLoading">Caricamento delle verità...</li>
-    <li *ngIf="isEmpty">
+    <li class="error" *ngIf="isLoading">
+      <fa class="blue" name="spinner" animation="spin"></fa> Caricamento delle verità...
+    </li>
+    <li class="error" *ngIf="isEmpty">
       <b>Nessuna verità trovata!</b><br/>
       <i>
         Assicurati di aver digitato correttamente il testo ricercato o la parola chiave: ricorda che funziona bene con parole intere!
         Se ti manca un riferimento, o vuoi aggiungere una nuova parola chiave, segnalamelo!
       </i>
     </li>
-    <li *ngIf="isError">Qualche profano ha disturbato la comunicazione, riprova!</li>
+    <li class="error" *ngIf="isError">Qualche profano ha disturbato la comunicazione, riprova!</li>
   </ul>
 
   <ul class="page-list" #pageList *ngIf="isAllOk">

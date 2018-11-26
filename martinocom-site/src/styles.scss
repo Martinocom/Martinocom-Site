@@ -1,7 +1,9 @@
+$menu-height: 48px;
+
 $padding-small: 15px;
 $margin-small: 15px;
 $padding-big: 50px;
-$margin-big: 50px;
+$margin-big: 40px;
 
 html, body {
     margin: 0;
@@ -9,7 +11,7 @@ html, body {
     font-family: 'Segoe UI', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100% !important;
     min-height: 100% !important;
-    background: #F3F6FA;
+    background: #fcfefd;
 }
 
 .no-scroll {
@@ -23,7 +25,7 @@ html, body {
 }
 
 p, li, span {
-    color: #404040;
+    color: #454545;
 }
 
 .white {
@@ -93,7 +95,6 @@ h1, h2, h3, h4 {
 }
 
 h3 {
-    margin: 20px;
     display: none;
 }
 
@@ -106,11 +107,11 @@ h2 {
 }
 
 h4 {
-    font-size: 2em;
+    font-size: 1.7em;
     margin-bottom: 0.5em;
-    color: #464646;
-    font-variant: small-caps;
+    color: black;
     font-weight: 600;
+    font-variant: small-caps;
 }
 
 .subtitle {
@@ -122,9 +123,9 @@ h4 {
 .box {
     background: white;
     padding: $padding-small;
-    margin: 15px;
-    border: 1px solid #b3b3b3;
+    margin: 10px;
     border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.30);
 }
 
 
@@ -159,6 +160,10 @@ h4 {
     }
 }
 
+.page-container {
+    margin-top: $menu-height + $margin-small;
+}
+
 @media only screen and (min-width: 800px) {
     h1 {
         font-size: 4em;
@@ -166,11 +171,12 @@ h4 {
 
     h3 {
         display: block;
-        font-size: 2em;
+        font-size: 2.3em;
         text-align: center;
-        color: rgb(124, 128, 129);
-        font-weight: 300;
+        font-weight: 600;
         font-variant: small-caps;
+        letter-spacing: 2px;
+        margin-bottom: 50px;
     }
 
     .subtitle {
@@ -179,10 +185,11 @@ h4 {
     }
 
     .page-container {
-        margin: $margin-small;
+        margin-top: $margin-big + $menu-height;
+        margin-bottom: $margin-big;
         margin-left: auto;
-        width: 90%;
         margin-right: auto;
+        width: 90%;
     }
 
     .page-list {
@@ -200,21 +207,17 @@ h4 {
     }
 
     .box {
-        margin-top: $padding-big;
-        border: 1px solid lightgray;
+        margin-top: $padding-big/1.8;
         padding: $padding-big;
-        padding-top: $padding-big/1.5;
-        padding-bottom: $padding-big/1.5;
+        padding-top: $padding-big/2;
+        padding-bottom: $padding-big/2;
+        box-shadow: none;
+        border: 1px solid lightgray;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .page-container {
-        margin-top: $margin-big;
         width: 70%;
-    }
-
-    h3 {
-        margin: $margin-big;
     }
 }
