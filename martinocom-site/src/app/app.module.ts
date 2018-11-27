@@ -14,6 +14,7 @@ import { SquareComponent } from './components/square/square.component';
 import { ZiopixelComponent } from './pages/ziopixel/ziopixel.component';
 import { NavigatorComponent } from './components/navigator/navigator.component';
 import { IndexComponent } from './pages/index/index.component';
+import { TelegramComponent } from './pages/telegram/telegram.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { IndexComponent } from './pages/index/index.component';
     SquareComponent,
     ZiopixelComponent,
     NavigatorComponent,
-    IndexComponent
+    IndexComponent,
+    TelegramComponent
   ],
   imports: [
     BrowserModule,

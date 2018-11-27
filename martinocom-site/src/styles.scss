@@ -130,6 +130,7 @@ h4 {
     &.neutral {
         border: none;
         box-shadow: none;
+        padding: 0;
     }
 }
 
@@ -147,6 +148,38 @@ h4 {
         padding-left: 10px;
         padding-right: 10px;
         margin-bottom: 1px;
+    }
+}
+
+table {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    border-spacing: 0px;    
+
+    tr th {
+        font-size: 1.2em;
+        font-weight: 600;
+        font-variant: small-caps;
+        background: #2b57a1;
+        border: 1px solid #2b57a1;
+        color: white;
+        padding: 10px;    
+    }
+
+    tr {
+        td {
+            text-align: center;
+            padding: 10px;
+
+            &:last-child {
+                text-align: left;
+            }
+        }
+
+        &:nth-child(odd) td {
+            background: #e9f2ff;
+        }
     }
 }
 
@@ -169,7 +202,7 @@ h4 {
     margin-top: $menu-height + $margin-small;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 900px) {
     h1 {
         font-size: 4em;
     }
@@ -200,6 +233,7 @@ h4 {
     .page-list {
         border: 1px solid lightgray;
         background: white;
+        margin: 10px;
 
         & li {
             background: none;
@@ -208,6 +242,11 @@ h4 {
             margin-left: 30px;
             margin-right: 30px;
             border-bottom: 1px solid lightgray;
+
+            &:last-child {
+                padding-bottom: 0px;
+                border: none;
+            }
         }
     }
 

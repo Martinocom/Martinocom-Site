@@ -14,9 +14,10 @@
       <fa class="blue" name="spinner" animation="spin"></fa> Caricamento delle verità...
     </li>
     <li class="error" *ngIf="isEmpty">
-      <b>Nessuna verità trovata!</b><br/>
+      <b>Nessuna verità trovata!</b><br />
       <i>
-        Assicurati di aver digitato correttamente il testo ricercato o la parola chiave: ricorda che funziona bene con parole intere!
+        Assicurati di aver digitato correttamente il testo ricercato o la parola chiave: ricorda che funziona bene con
+        parole intere!
         Se ti manca un riferimento, o vuoi aggiungere una nuova parola chiave, segnalamelo!
       </i>
     </li>
@@ -33,4 +34,13 @@
       </div>
     </li>
   </ul>
+
+  <div class="box" *ngIf="facts.length < 5 && isAllOk">
+    <h4>Nota bene!</h4>
+    <p>
+      <b>Ho trovato poche verità?</b> Assicurati di aver digitato correttamente il testo ricercato o la parola chiave: ricorda che funziona bene con
+      parole intere!
+      Se ti manca un riferimento, o vuoi aggiungere una nuova parola chiave, segnalamelo!
+    </p>
+  </div>
 </div>

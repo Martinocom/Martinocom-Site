@@ -1444,6 +1444,19 @@
         {
             "id": 90,
             "keywords": [
+                "ziopixel",
+                "futuro",
+                "ride",
+                "ridere",
+                "conosce",
+                "silenzio",
+                "zitto"
+            ],
+            "text": "ZioPixel conosce il nostro futuro: sta zitto e se la ride dall'alto"
+        },
+        {
+            "id": 91,
+            "keywords": [
                 "ada",
                 "conservare",
                 "inventario",
@@ -1458,7 +1471,7 @@
             "text": "Quando ZioPixel usa un virus su di un portale immune, il virus viene conservato"
         },
         {
-            "id": 91,
+            "id": 92,
             "keywords": [
                 "cose",
                 "pensare",
@@ -1469,7 +1482,7 @@
             "text": "ZioPixel ha tante cose a cui pensare, a volte si avvale di ciò che costruiscono gli uomini"
         },
         {
-            "id": 92,
+            "id": 93,
             "keywords": [
                 "colori",
                 "fax",
@@ -1482,7 +1495,7 @@
             "text": "ZioPixel può mandarti un fax anche anche sulla radiosveglia. E tu lo riceveresti. A colori"
         },
         {
-            "id": 93,
+            "id": 94,
             "keywords": [
                 "72",
                 "ada",
@@ -1520,24 +1533,6 @@
                 "ziopixel"
             ],
             "text": "Quando ZioPixel vuole livellare tutti i portali diventano verdi con tutti i reso1 e fieldati a stella. Ad ogni hack vengono forniti a ZioPixel 2000 XMP8, 2000 ADA, 2000 Jarvis e 72 vergini. Al che ZioPixel si avvicina ad un portale e dice semplicemente mio per catturarlo"
-        },
-        {
-            "id": 94,
-            "keywords": [
-                "bocca",
-                "cellulare",
-                "chiamare",
-                "chiamate",
-                "credito",
-                "destinatario",
-                "intercontinentale",
-                "mignolo",
-                "orecchio",
-                "pollice",
-                "telefono",
-                "ziopixel"
-            ],
-            "text": "ZioPixel posizionando il pollice nell'orecchio e il mignolo davanti alla bocca puo' fare chiamate intercontinentali… …a carico del destinatario"
         },
         {
             "id": 95,
@@ -1836,6 +1831,101 @@
                 "ziopixel"
             ],
             "text": "ZioPixel può tranquillamente affermare che in Romagna abbiamo tutto"
+        },
+        {
+        "id": 111,
+            "keywords": [
+                "ziopixel",
+                "afferma",
+                "bidocchio",
+                "bidocchino",
+                "bidocchini",
+                "bidocchi",
+                "ottare",
+                "l8",
+                "reso",
+                "resonator",
+                "risuonatore",
+                "resonators",
+                "risuonatori",
+                "l7",
+                "8",
+                "7",
+                "portale",
+                "portali",
+                "portals",
+                "portal"
+            ],            
+            "text": "ZioPixel afferma: siamo talmente 'bidocchini' che ottiamo i portali con reso 7"
+        },
+        {
+        "id": 112,
+            "keywords": [
+                "ziopixel",
+                "pokemon",
+                "pokemonnari",
+                "pokemongo",
+                "pokemon",
+                "go",
+                "portal",
+                "portals",
+                "portale",
+                "portali",
+                "request",
+                "richiesta",
+                "bocciare",
+                "boccia",
+                "rifiuta"
+            ],            
+            "text": "ZioPixel ha concesso la possibilità di richiedere i portali su PokemonGo solo per il gusto di bocciare tutte le richieste dei Pokemonari"
+        },
+        {
+        "id": 113,
+            "keywords": [
+                "ziopixel",
+                "ristoranti",
+                "4",
+                "alessandro",
+                "borghese",
+                "ribaltare",
+                "gara",
+                "esito",
+                "voto",
+                "giudizio",
+                "mano",
+                "cenno",
+                "ribaltare",
+                "ribalto"
+            ],            
+            "text": "In '4 ristoranti' Alessandro Borghese può ribaltare l'esito della gara con il suo voto. Con un cenno della mano, ZioPixel può ribaltare Alessandro Borghese"
+        },
+        {
+        "id": 113,
+            "keywords": [
+                "ziopixel",
+                "programmatore",
+                "programma",
+                "programmer",
+                "informatica",
+                "informatico",
+                "nerd",
+                "spiegare",
+                "computer",
+                "parole",
+                "parola",
+                "semplici",
+                "semplice",
+                "automatico",
+                "codice",
+                "perfetto",
+                "bug",
+                "hacker",
+                "debug",
+                "sicurezza",
+                "indentato",
+                "indentazione"
+            ],            
+            "text": "ZioPixel non programma. Lui si limita a spiegare al computer con parole semplice cosa vuole ottenere e automaticamente viene generato codice scritto in maniera elegante, a prova di hacker ed esente da bugs"
         }
     ]
 }
