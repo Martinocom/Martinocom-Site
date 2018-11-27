@@ -32,6 +32,16 @@ fa {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    overflow-y: hidden;
+	max-height: 500px;
+
+    transition-property: all;
+	transition-duration: .5s;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    
+    &.closed {
+        max-height: 0;
+    }
 }
 
 .nav-button {

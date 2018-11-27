@@ -9,6 +9,10 @@ export class SquareComponent implements OnInit {
 
   @Input() title: string;
   @Input() background: string;
+  @Input() width: number;
+  @Input() height: number;
+  @Input() margin: number;
+  @Input() isRounded: boolean;
 
   constructor() { }
 

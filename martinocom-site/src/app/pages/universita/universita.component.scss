@@ -1,0 +1,40 @@
+.quick-buttons {
+    flex-flow: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    & > * {
+        margin: 5px;
+        width: 95%;
+    }
+}
+
+a {
+    display: block;
+    margin-bottom: 15px;
+
+    &.no-margin {
+        margin: 0px;
+    }
+}
+
+@media only screen and (min-width: 555px) {
+    .quick-buttons {
+        flex-flow: row;
+        flex-wrap: wrap;
+
+        & > * {
+            width: 30%;
+            max-width: 300px;
+        }
+    }
+}
+
+@media only screen and (min-width: 800px) {
+
+    .quick-buttons {
+        margin-top: -35px;
+        margin-bottom: 10px;
+    }
+}

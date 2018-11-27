@@ -1,7 +1,15 @@
-<div class="flex outer-box" unselectable="on" onselectstart="return false">
-  <div class="inner-box">
-    <div class="title">
+<div class="flex outer-box" 
+  unselectable="on" 
+  onselectstart="return false"
+  [style.width.px]="width"
+  [style.height.px]="height"
+  [style.margin.px]="margin"
+  [style.border-radius]="isRounded ? '5px' : '0px'">
+
+  <div class="inner-box" [style.border-radius]="isRounded ? '5px' : '0px'">
+
+    <div class="title" [style.border-radius]="isRounded ? '5px' : '0px'" [style.line-height.px]="height">
       {{title}}
     </div>
+
   </div>
-</div>

@@ -1,4 +1,5 @@
 import { Component, OnInit, Input, ViewChild, ElementRef } from '@angular/core';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-navigator',
@@ -19,6 +20,8 @@ export class NavigatorComponent implements OnInit {
 
   onBarsClick() {
     this.isMenuVisible = !this.isMenuVisible;
+
+    $("#menu").toggleClass("closed");
   }
 
 }
