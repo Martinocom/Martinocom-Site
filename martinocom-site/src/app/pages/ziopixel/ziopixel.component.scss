@@ -1,3 +1,5 @@
+@import '../../styles/values';
+
 .search-box {
     width: 100%;
     padding: 15px;
@@ -5,7 +7,7 @@
 
 input[type=text] {
     width: 100%;
-    height: 48px;
+    height: $menu-height;
     border-radius: 5px;
     border: 1px solid lightgray;
     padding: 5px 15px 5px 15px;
@@ -38,7 +40,7 @@ input[type=text] {
     display: inline-block;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: $small-screen) {
     .search-box {
         padding: 10px;
         margin-bottom: 15px;

@@ -1,3 +1,5 @@
+@import '../../styles/values';
+
 * {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -62,4 +64,16 @@ img {
 
 .chute {
     z-index: -1;
+    border-radius: 25px;
+    width: 99px;
+    height: 105px;
+    background-image: url("../../../assets/images/small-banana.gif");
+    position: absolute;
+    opacity: 1;
+
+    &.small {
+        width: 45px;
+        height: 52px;
+        background-size: 100%;
+    }
 }

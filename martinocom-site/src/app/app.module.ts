@@ -15,6 +15,8 @@ import { ZiopixelComponent } from './pages/ziopixel/ziopixel.component';
 import { NavigatorComponent } from './components/navigator/navigator.component';
 import { IndexComponent } from './pages/index/index.component';
 import { TelegramComponent } from './pages/telegram/telegram.component';
+import { ContainerComponent } from './components/container/container.component';
+import { BoxComponent } from './components/box/box.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { TelegramComponent } from './pages/telegram/telegram.component';
     ZiopixelComponent,
     NavigatorComponent,
     IndexComponent,
-    TelegramComponent
+    TelegramComponent,
+    ContainerComponent,
+    BoxComponent
   ],
   imports: [
     BrowserModule,

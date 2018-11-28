@@ -1,0 +1,44 @@
+@import '../../styles/values';
+
+.container {
+    width: 100%;
+    margin-top: $menu-height + $margin-big;
+}
+
+h3 {
+    display: none;
+}
+
+@media only screen and (min-width: $small-screen) {
+    .container {
+        margin-top: $menu-height + $margin-big;
+        margin-bottom: $margin-big;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;   
+    }
+
+    h3 {
+        display: block;
+        font-size: 2.3em;
+        text-align: center;
+        font-weight: 600;
+        font-variant: small-caps;
+        letter-spacing: 2px;
+        margin-bottom: $margin-big;
+        margin-top: $margin-big;
+    }
+
+    .content {
+        background: white;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        padding: 5%;
+    }
+}
+
+@media only screen and (min-width: $medium-screen) {
+    .container {
+        width: 75%;
+    }
+}

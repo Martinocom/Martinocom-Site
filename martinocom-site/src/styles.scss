@@ -1,9 +1,4 @@
-$menu-height: 48px;
-
-$padding-small: 15px;
-$margin-small: 15px;
-$padding-big: 50px;
-$margin-big: 40px;
+@import './app/styles/values';
 
 html, body {
     margin: 0;
@@ -24,16 +19,21 @@ html, body {
   box-sizing: border-box;
 }
 
+:focus, :active {
+    outline: 0 !important;
+}
+
 p, li, span {
     color: #454545;
 }
 
-.white {
-    color: white;
+p {
+    margin-top: 5px;
+    padding-top: 0px;
 }
 
-:focus, :active {
-    outline: 0 !important;
+.white {
+    color: white;
 }
 
 a {
@@ -94,10 +94,6 @@ h1, h2, h3, h4, h5 {
     padding: 0;
 }
 
-h3 {
-    display: none;
-}
-
 h1 {
     font-size: 3em;
 }
@@ -106,34 +102,11 @@ h2 {
     margin-bottom: 5px;
 }
 
-h4 {
-    font-size: 1.7em;
-    margin-bottom: 0.5em;
-    color: black;
-    font-weight: 600;
-    font-variant: small-caps;
-}
-
 .subtitle {
     font-style: italic;
     font-size: 1em;
     margin-bottom: 10px;
 }
-
-.box {
-    background: white;
-    padding: $padding-small;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.30);
-
-    &.neutral {
-        border: none;
-        box-shadow: none;
-        padding: 0;
-    }
-}
-
 
 .page-list {
     list-style: none;
@@ -161,8 +134,8 @@ table {
         font-size: 1.2em;
         font-weight: 600;
         font-variant: small-caps;
-        background: #2b57a1;
-        border: 1px solid #2b57a1;
+        background: $main-color;
+        border: 1px solid $main-color;
         color: white;
         padding: 10px;    
     }
@@ -183,38 +156,13 @@ table {
     }
 }
 
-.chute {
-    border-radius: 25px;
-    width: 99px;
-    height: 105px;
-    background-image: url("assets/images/small-banana.gif");
-    position: absolute;
-    opacity: 1;
-
-    &.small {
-        width: 45px;
-        height: 52px;
-        background-size: 100%;
-    }
-}
-
 .page-container {
     margin-top: $menu-height + $margin-small;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: $small-screen) {
     h1 {
         font-size: 4em;
-    }
-
-    h3 {
-        display: block;
-        font-size: 2.3em;
-        text-align: center;
-        font-weight: 600;
-        font-variant: small-caps;
-        letter-spacing: 2px;
-        margin-bottom: 50px;
     }
 
     .subtitle {
@@ -227,7 +175,7 @@ table {
         margin-bottom: $margin-big;
         margin-left: auto;
         margin-right: auto;
-        width: 90%;
+        width: 90%;       
     }
 
     .page-list {
@@ -237,7 +185,7 @@ table {
 
         & li {
             background: none;
-            padding: $padding-small;
+            padding: $margin-small;
             margin: 0;
             margin-left: 30px;
             margin-right: 30px;
@@ -249,18 +197,9 @@ table {
             }
         }
     }
-
-    .box {
-        margin-top: $padding-big/1.8;
-        padding: $padding-big;
-        padding-top: $padding-big/2;
-        padding-bottom: $padding-big/2;
-        box-shadow: none;
-        border: 1px solid lightgray;
-    }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: $medium-screen) {
     .page-container {
         width: 70%;
     }

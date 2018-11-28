@@ -1,0 +1,25 @@
+$menu-height: 48px;
+
+$margin-small: 15px;
+$margin-big: 40px;
+
+$very-small-screen: 555px;
+$small-screen: 900px;
+$medium-screen: 1200px;
+$big-screen: 1500px;
+$very-big-screen: 1650px;
+
+$main-color: #2b57a1;
+
+
+@mixin applyShadow($size) {
+    @if $size == 'big' {
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    } @else {
+        -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.30);
+        -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.30);
+        box-shadow: 0 1px 3px rgba(0,0,0,0.30);
+   }
+}

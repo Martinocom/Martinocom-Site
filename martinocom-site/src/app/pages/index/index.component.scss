@@ -1,3 +1,5 @@
+@import '../../styles/values';
+
 .menu {
     flex-flow: column;
     width: 100%;
@@ -33,7 +35,7 @@
     background: #fcfefd;
 }
 
-@media only screen and (min-width: 555px) {
+@media only screen and (min-width: $very-small-screen) {
     .menu {
         flex-flow: row;
         flex-wrap: wrap;
@@ -52,7 +54,7 @@
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: $small-screen) {
     .middle {
         padding: 50px;
         width: 90%;
@@ -68,7 +70,7 @@
     }
 }
 
-@media only screen and (min-width: 1650px) {
+@media only screen and (min-width: $very-big-screen) {
     .container {
         margin-top: -80px;
         width: 75%;

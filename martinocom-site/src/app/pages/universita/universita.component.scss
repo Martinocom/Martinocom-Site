@@ -1,3 +1,5 @@
+@import '../../styles/values';
+
 .quick-buttons {
     flex-flow: column;
     width: 100%;
@@ -11,7 +13,7 @@
 }
 
 a {
-    display: block;
+    display: inline-block;
     margin-bottom: 15px;
 
     &.no-margin {
@@ -19,7 +21,7 @@ a {
     }
 }
 
-@media only screen and (min-width: 555px) {
+@media only screen and (min-width: $very-small-screen) {
     .quick-buttons {
         flex-flow: row;
         flex-wrap: wrap;
@@ -31,7 +33,7 @@ a {
     }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: $small-screen) {
 
     .quick-buttons {
         margin-top: -35px;

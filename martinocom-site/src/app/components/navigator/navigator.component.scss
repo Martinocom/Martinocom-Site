@@ -1,11 +1,11 @@
-$size: 48px;
+@import '../../styles/values';
 
 fa {
-    width: $size;
-    height: $size;
-    min-width: $size;
-    min-height: $size;
-    line-height: $size;
+    width: $menu-height;
+    height: $menu-height;
+    min-width: $menu-height;
+    min-height: $menu-height;
+    line-height:  $menu-height;
     text-align: center;
     color: white;
     cursor: pointer;
@@ -29,9 +29,8 @@ fa {
     position: fixed;
     margin-top: -15px;
     z-index: 9999;
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    @include applyShadow('big');
+
     overflow-y: hidden;
 	max-height: 500px;
 
@@ -45,8 +44,8 @@ fa {
 }
 
 .nav-button {
-    height: $size;
-    line-height: $size;
+    height: $menu-height;
+    line-height: $menu-height;
     width: 100%;
     text-align: center;
     cursor: pointer;
@@ -68,7 +67,7 @@ fa {
 }
 
 .top-bar, .small, .large {
-    height: $size;
+    height: $menu-height;
     width: 100%;
     font-variant: small-caps;
 }
@@ -99,7 +98,7 @@ fa {
     display: none;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: $small-screen) {
     .flex {
         width: auto;
     }
@@ -130,8 +129,8 @@ fa {
     }
 
     .nav-button {
-        height: $size;
-        line-height: $size;
+        height: $menu-height;
+        line-height: $menu-height;
         width: 150px;
         text-align: center;
         cursor: pointer;
@@ -161,11 +160,11 @@ fa {
     
     .filler {
         background: white;
-        height: $size;
+        height: $menu-height;
     }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: $medium-screen) {
     .self-aligned {
         width: 100%;
         margin-left: 4%;
@@ -177,7 +176,7 @@ fa {
     }
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: $big-screen) {
     .self-aligned {
         width: 70%;
         margin: 0;

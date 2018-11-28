@@ -18,7 +18,7 @@ export class ZiopixelComponent implements OnInit {
   public savedFacts: Fact[];
   public facts: Fact[];
 
-  private url = "../../assets/data/facts.json";
+  private url = "./assets/data/facts.json";
 
 
   @ViewChild('pageList') pageList: ElementRef;

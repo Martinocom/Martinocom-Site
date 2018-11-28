@@ -1,0 +1,35 @@
+@import '../../styles/values';
+
+$padding-left: 10px;
+$line-width: 5px;
+
+.box {
+    margin: $margin-small;
+    margin-top: $margin-big;
+
+    &.neutral {
+        border: none;
+        box-shadow: none;
+        padding: 0;
+    }
+}
+
+h4 {
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0px;
+    padding-left: $padding-left;
+    border-left: $line-width solid $main-color;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding-left: $padding-left + $line-width;
+}
+
+@media only screen and (min-width: $small-screen) {
+    .box {
+        margin-bottom: $margin-big*1.7;
+        padding: 0;
+    }
+}
