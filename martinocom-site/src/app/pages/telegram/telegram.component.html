@@ -1,13 +1,6 @@
-<app-navigator title="Telegram vs Others"></app-navigator>
 
-<div class="page-container">
-
-  <h3>
-    Telegram vs Others
-  </h3>
-
-  <div class="box">
-    <h4>Disclamer</h4>
+<app-container title="Telegram vs Others">
+  <app-box title="Disclamer">
     <p>
       <b>Telegram vs Others</b> è una guerra che ha gli stessi risultati dei <b>Vegan vs Others</b>: completamente
       inutile. Ci saranno sempre persone che
@@ -19,10 +12,9 @@
     <p>
       <i>A me la carne piace. Come potrei vivere senza hamburger?</i>
     </p>
-  </div>
+  </app-box>
 
-  <div class="box">
-    <h4>Informazioni utili</h4>
+  <app-box title="Info utili">
     <p>
       La tabella sottostante è di puro confronto. Se c'è qualcosa di sbagliato, errato, impreciso o non corretto,
       segnalamelo! Cerco di prendere tutti i punti di debolezza e forza
@@ -37,9 +29,9 @@
       </i></p>
 
     <p><i>Ultimo aggiornamento: <b>27/11/2018.</b> alle ore <b>15:33</b></i></p>
-  </div>
+  </app-box>
 
-  <div class="box neutral">
+  <app-box isNeutral="true">
     <table>
       <tr>
         <th>Feature</th>
@@ -337,13 +329,9 @@
         </td>
       </tr>
     </table>
-  </div>
+  </app-box>
 
-  <div class="box">
-    <h4>
-      Cosa ha Telegram che WhatsApp non ha?
-    </h4>
-
+  <app-box title="Cosa ha Telegram che WhatsApp non ha?">
     <ul>
       <li>
         <b>Bot:</b> Automatizzan una miriade di cose, sono comodi per gestire (o portari divertimento nei) gruppi, sono
@@ -381,13 +369,9 @@
       </li>
 
     </ul>
-  </div>
+  </app-box>
 
-  <div class="box">
-    <h4>
-      Cosa ha WhatsApp che Telegram non ha?
-    </h4>
-
+  <app-box title="Cosa WhatsApp ha che Telegram non ha?">
     <ul>
       <li>
         <b>Migliore visualizzazione stato lettura messaggio nei gruppi:</b> sai bene chi e dove è arrivato a leggere il
@@ -398,13 +382,9 @@
         <b>Utenza:</b> Telegram conta molti meno utenti attivi, anche se in crescita.
       </li>
     </ul>
-  </div>
+  </app-box>
 
-  <div class="box">
-    <h4>
-      Cosa metto in dubbio su entrambe?
-    </h4>
-
+  <app-box title="Cosa metto in dubbio in entrambe?">
     <ul>
       <li>
         <b>Sicurezza:</b> benchè entrambe offrono l'autorizzazione a due fattori, chi mi dice che le chat sono sicure? Per caso un metodo criptografico?
@@ -414,5 +394,5 @@
         <b>Utenza:</b> Telegram conta molti meno utenti attivi, anche se in crescita.
       </li>
     </ul>
-  </div>
-</div>
+  </app-box>
+</app-container>

@@ -24,7 +24,9 @@ h4 {
 }
 
 .content {
-    padding-left: $padding-left + $line-width;
+    margin: 0;
+    padding-left: $padding-left + $line-width;    
+    padding-right: $padding-left + $line-width;    
 }
 
 @media only screen and (min-width: $small-screen) {

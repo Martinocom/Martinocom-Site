@@ -1,61 +1,49 @@
-<app-navigator title="Università"></app-navigator>
-<div class="page-container">
+<app-container title="Università">
 
-    <h3>
-        Università
-    </h3>
+  <div class="flex quick-buttons">
+    <app-square title="Mail" height="48" isRounded="true" (click)="openLink('https://outlook.office365.com/owa/?realm=studio.unibo.it#path=/mail')"></app-square>
+    <app-square title="SOL" height="48" isRounded="true" (click)="openLink('https://studenti.unibo.it/sol/welcome.htm')"></app-square>
+    <app-square title="ERGO" height="48" isRounded="true" (click)="openLink('https://servizionline.er-go.it/dossier/mainmenu/')"></app-square>
+  </div>
 
-    <div class="flex quick-buttons">
-        <app-square title="Mail" height="48" isRounded="true" (click)="openLink('https://outlook.office365.com/owa/?realm=studio.unibo.it#path=/mail')"></app-square>
-        <app-square title="SOL" height="48" isRounded="true" (click)="openLink('https://studenti.unibo.it/sol/welcome.htm')"></app-square>
-        <app-square title="ERGO" height="48" isRounded="true" (click)="openLink('https://servizionline.er-go.it/dossier/mainmenu/')"></app-square>
-    </div>
+  <app-box title="3">
+    <h5>Tecnologie Web</h5>
+    <a href="https://elearning-cds.unibo.it/course/view.php?id=8645">https://elearning-cds.unibo.it/course/view.php?id=8645"</a>
 
-    <div class="box">
-        <h4>
-            Materie
-        </h4>
+    <h5>Computer Graphics</h5>
+    <a href="http://campus.unibo.it/cgi/lista?annoAccademico=2016&idComponenteAF=385075&codiceDocente=30730">http://campus.unibo.it/cgi/lista?annoAccademico=2016&idComponenteAF=385075&codiceDocente=30730</a>
 
-        <p>
-            Se qualcuno vuole aggiungere qualcosa mi faccia sapere. Di mia iniziativa non credo di aggiornare sta pagina.
-        </p>
-    </div>
+    <h5>Programmazione di Reti</h5>
+    <a href="http://campus.unibo.it/cgi/lista?annoAccademico=2016&idComponenteAF=415672&codiceDocente=30946">http://campus.unibo.it/cgi/lista?annoAccademico=2016&idComponenteAF=415672&codiceDocente=30946</a>
 
-    <div class="box">
-        <h5>Tecnologie Web</h5>
-        <a href="https://elearning-cds.unibo.it/course/view.php?id=8645">https://elearning-cds.unibo.it/course/view.php?id=8645"</a>
+    <h5>Ingegneria Software</h5>
+    <a href="http://campus.unibo.it/cgi/lista?annoAccademico=2016&idComponenteAF=378224&codiceDocente=30935">http://campus.unibo.it/cgi/lista?annoAccademico=2016&idComponenteAF=378224&codiceDocente=30935</a>
+  </app-box>
 
-        <h5>Computer Graphics</h5>
-        <a href="http://campus.unibo.it/cgi/lista?annoAccademico=2016&idComponenteAF=385075&codiceDocente=30730">http://campus.unibo.it/cgi/lista?annoAccademico=2016&idComponenteAF=385075&codiceDocente=30730</a>
+  <app-box title="2">
+    <h5>Base di dati</h5>
+    <a href="http://bias.csr.unibo.it/maio/courses/bd/bd.htm">http://bias.csr.unibo.it/maio/courses/bd/bd.htm</a>
 
-        <h5>Programmazione di Reti</h5>
-        <a href="http://campus.unibo.it/cgi/lista?annoAccademico=2016&idComponenteAF=415672&codiceDocente=30946">http://campus.unibo.it/cgi/lista?annoAccademico=2016&idComponenteAF=415672&codiceDocente=30946</a>
+    <h5>Elettronica</h5>
+    <a href="https://www.unibo.it/sitoweb/rossano.codeluppi2">https://www.unibo.it/sitoweb/rossano.codeluppi2</a>
 
-        <h5>Ingegneria Software</h5>
-        <a href="http://campus.unibo.it/cgi/lista?annoAccademico=2016&idComponenteAF=378224&codiceDocente=30935">http://campus.unibo.it/cgi/lista?annoAccademico=2016&idComponenteAF=378224&codiceDocente=30935</a>
-    </div>
+    <h5>Fisica</h5>
+    <a href="https://www.unibo.it/sitoweb/luca.pasquini/didattica?AA=2015">https://www.unibo.it/sitoweb/luca.pasquini/didattica?AA=2015</a>
+  </app-box>
 
-    <div class="box">
-        <h5>Base di dati</h5>
-        <a href="http://bias.csr.unibo.it/maio/courses/bd/bd.htm">http://bias.csr.unibo.it/maio/courses/bd/bd.htm</a>
+  <app-box title="1">
+    <h5>Programmazione ad Oggetti</h5>
+    <a href="https://elearning-cds.unibo.it/course/view.php?id=5844">https://elearning-cds.unibo.it/course/view.php?id=5844</a>
 
-        <h5>Elettronica</h5>
-        <a href="https://www.unibo.it/sitoweb/rossano.codeluppi2">https://www.unibo.it/sitoweb/rossano.codeluppi2</a>
+    <h5>Controlli Automatici</h5>
+    <a class="no-margin" href="http://www-lar.deis.unibo.it/people/gpalli/TSCA-LM-2015.html">[TSCA]
+      http://www-lar.deis.unibo.it/people/gpalli/TSCA-LM-2015.html</a>
+    <a class="no-margin" href="http://www-lar.deis.unibo.it/people/gpalli/SETA-LM-2015.html">[SETA]
+      http://www-lar.deis.unibo.it/people/gpalli/SETA-LM-2015.html</a>
+    <a href="https://sites.google.com/site/robertonaldi/seta-cesena-6-crediti">https://sites.google.com/site/robertonaldi/seta-cesena-6-crediti</a>
 
-        <h5>Fisica</h5>
-        <a href="https://www.unibo.it/sitoweb/luca.pasquini/didattica?AA=2015">https://www.unibo.it/sitoweb/luca.pasquini/didattica?AA=2015</a>
-    </div>
+    <h5>Sistemi Operativi</h5>
+    <a href="http://www.cs.unibo.it/~ghini/">http://www.cs.unibo.it/~ghini/</a>
+  </app-box>
 
-    <div class="box">
-            <h5>Programmazione ad Oggetti</h5>
-            <a href="https://elearning-cds.unibo.it/course/view.php?id=5844">https://elearning-cds.unibo.it/course/view.php?id=5844</a>
-            
-            <h5>Controlli Automatici</h5>
-            <a class="no-margin" href="http://www-lar.deis.unibo.it/people/gpalli/TSCA-LM-2015.html">[TSCA] http://www-lar.deis.unibo.it/people/gpalli/TSCA-LM-2015.html</a>
-            <a class="no-margin" href="http://www-lar.deis.unibo.it/people/gpalli/SETA-LM-2015.html">[SETA] http://www-lar.deis.unibo.it/people/gpalli/SETA-LM-2015.html</a>
-            <a href="https://sites.google.com/site/robertonaldi/seta-cesena-6-crediti">https://sites.google.com/site/robertonaldi/seta-cesena-6-crediti</a>
-            
-            <h5>Sistemi Operativi</h5>
-            <a href="http://www.cs.unibo.it/~ghini/">http://www.cs.unibo.it/~ghini/</a>
-    </div>
-</div>
+</app-container>
