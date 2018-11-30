@@ -1,4 +1,4 @@
-<app-container title="Verità su ZioPixel">
+<app-container title="Verità su ZioPixel" isNeutral="true">
   <div class="search-box">
     <input type="text" placeholder="Parola o tag da ricercare nelle verità" (keyup)="onKey($event)">
   </div>
@@ -29,13 +29,12 @@
     </li>
   </ul>
 
-  <div class="box" *ngIf="facts.length < 5 && isAllOk">
-    <h4>Nota bene!</h4>
+  <app-box title="Nota bene!" *ngIf="facts.length < 5 && isAllOk">
     <p>
       <b>Ho trovato poche verità?</b> Assicurati di aver digitato correttamente il testo ricercato o la parola chiave:
       ricorda che funziona bene con
       parole intere!
       Se ti manca un riferimento, o vuoi aggiungere una nuova parola chiave, segnalamelo!
     </p>
-  </div>
+  </app-box>
 </app-container>

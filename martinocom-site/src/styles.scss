@@ -162,10 +162,6 @@ table {
     }
 }
 
-.page-container {
-    margin-top: $menu-height + $margin-small;
-}
-
 @media only screen and (min-width: $small-screen) {
     h1 {
         font-size: 4em;
@@ -174,14 +170,6 @@ table {
     .subtitle {
         font-size: 1.2em;
         margin-bottom: 20px;
-    }
-
-    .page-container {
-        margin-top: $margin-big + $menu-height;
-        margin-bottom: $margin-big;
-        margin-left: auto;
-        margin-right: auto;
-        width: 90%;       
     }
 
     .page-list {
@@ -202,11 +190,5 @@ table {
                 border: none;
             }
         }
-    }
-}
-
-@media only screen and (min-width: $medium-screen) {
-    .page-container {
-        width: 70%;
     }
 }

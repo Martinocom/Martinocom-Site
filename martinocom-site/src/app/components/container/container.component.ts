@@ -9,6 +9,7 @@ import { Title } from '@angular/platform-browser';
 export class ContainerComponent implements OnInit {
 
   @Input() title: string;
+  @Input() isNeutral: boolean = false;
 
   constructor() { }
 
