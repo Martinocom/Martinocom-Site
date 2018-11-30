@@ -1,0 +1,29 @@
+@import '../../styles/values';
+
+* {
+    cursor: pointer;
+}
+
+.icon {  
+    @include applyShadow("big");
+    background: $main-color;
+    border-radius: 50%;
+    margin: 0;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+    &:hover {
+        background: #3f70c5;
+        animation: rotation 1s forwards;
+    }
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg) scale(1.1);
+    }
+    100% {
+        transform: rotate(360deg) scale(1.1);
+    }
+}

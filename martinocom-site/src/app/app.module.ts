@@ -17,6 +17,7 @@ import { IndexComponent } from './pages/index/index.component';
 import { TelegramComponent } from './pages/telegram/telegram.component';
 import { ContainerComponent } from './components/container/container.component';
 import { BoxComponent } from './components/box/box.component';
+import { CircleComponent } from './components/circle/circle.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { BoxComponent } from './components/box/box.component';
     IndexComponent,
     TelegramComponent,
     ContainerComponent,
-    BoxComponent
+    BoxComponent,
+    CircleComponent
   ],
   imports: [
     BrowserModule,
