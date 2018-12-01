@@ -3,6 +3,8 @@
 .search-box {
     width: 100%;
     padding: 15px;
+    padding-bottom: 30px;
+    padding-top: 0px;
 }
 
 input[type=text] {
@@ -26,14 +28,10 @@ input[type=text] {
 
 .fact-id {
     display: inline-block;
-    text-align: right;
-    margin-right: 5px;
+    text-align: center;
+    margin-right: 13px;
     min-width: 30px;
     max-width: 30px;
-
-    &::after {
-        content: ". ";
-    }
 }
 
 .inline-div {
@@ -45,7 +43,6 @@ input[type=text] {
         padding: 10px;
         margin-bottom: 15px;
     }
-
 
     .fact-id {
         display: inline-block;

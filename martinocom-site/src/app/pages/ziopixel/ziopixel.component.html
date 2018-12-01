@@ -22,8 +22,7 @@
     <li class="flex horizontal start-aligned" *ngFor="let fact of facts">
       <div class="fact-id"><b>{{fact.id}}</b></div>
       <div>
-        <div class="inline-div" *ngIf="fact.html != ''" [innerHTML]="fact.html"></div>
-        <div class="inline-div" *ngIf="fact.html != ''">{{fact.html}}</div>
+        <div class="inline-div" *ngIf="fact.html != null" [innerHTML]="fact.html | safeHtml"></div>
         <span *ngIf="!fact.html">{{fact.text}}</span>
       </div>
     </li>

@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { JsonData } from '../../model/facts';
 import { Fact } from '../../model/fact';
+import { SafeHtmlPipe } from '../../pipes/safe-html.pipe';
 
 @Component({
   selector: 'app-ziopixel',
@@ -15,8 +16,8 @@ export class ZiopixelComponent implements OnInit {
   public isError: boolean = false;
   public isAllOk: boolean = false;
 
-  public savedFacts: Fact[];
-  public facts: Fact[];
+  public savedFacts: Fact[] = [];
+  public facts: Fact[] = [];
 
   private url = "./assets/data/facts.json";
 

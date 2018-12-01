@@ -18,6 +18,7 @@ import { TelegramComponent } from './pages/telegram/telegram.component';
 import { ContainerComponent } from './components/container/container.component';
 import { BoxComponent } from './components/box/box.component';
 import { CircleComponent } from './components/circle/circle.component';
+import { SafeHtmlPipe } from './pipes/safe-html.pipe';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { CircleComponent } from './components/circle/circle.component';
     TelegramComponent,
     ContainerComponent,
     BoxComponent,
-    CircleComponent
+    CircleComponent,
+    SafeHtmlPipe
   ],
   imports: [
     BrowserModule,
