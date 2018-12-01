@@ -17,7 +17,9 @@ export class BananeComponent implements OnInit {
   counter: number = 0;
   text: string = "";
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.renderer.addClass(document.body, 'no-scroll');
+  }
 
   ngOnDestroy() {
     this.renderer.removeClass(document.body, 'no-scroll');
@@ -26,12 +28,12 @@ export class BananeComponent implements OnInit {
   onBananaClick() {
     this.counter+=2;
 
-    $('<div/>', { class: 'chute' }).appendTo('#main');
-    $('<div/>', { class: 'chute small' }).appendTo('#main');
+    $("<div class='chute'><img src='./assets/images/small-banana.gif'/></div>").appendTo('#main');
+    $("<div class='chute small'><img src='./assets/images/small-banana.gif'/></div>").appendTo('#main');
+    //$('<div/>', { class: 'chute small' }).appendTo('#main');
 
-    var box = $('#main');
-    var width = box.width() - 50;
-    var height = box.height() + 300;
+    var width = $(window).width() - 110;
+    var height = $(window).height() - 110;
     var chute = $('.chute');
 
     chute.each(function foo() {

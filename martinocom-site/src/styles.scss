@@ -192,3 +192,27 @@ table {
         }
     }
 }
+
+.chute {
+    z-index: 10;
+    width: 99px;
+    height: 105px;
+    position: absolute;
+    opacity: 1;
+
+    img {
+        width: 99px;
+        height: 105px;
+    }
+
+    &.small {
+        width: 45px;
+        height: 52px;
+        background-size: 100%;
+
+        img {
+            width: 45px;
+            height: 52px;
+        }
+    }
+}

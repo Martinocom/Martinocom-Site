@@ -4,6 +4,10 @@
     cursor: pointer;
 }
 
+.container {
+    margin: 15px;
+}
+
 .icon {  
     @include applyShadow("big");
     background: $main-color;

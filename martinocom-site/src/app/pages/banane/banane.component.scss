@@ -7,6 +7,7 @@
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+    overflow: hidden;
 }
 
 h3 {
@@ -54,26 +55,16 @@ h5 {
     animation-duration: 1s;
 }
 
+#main {
+    overflow: hidden;
+}
+
 
 img {
-    z-index: 10;
+    z-index: 100;
     padding: 20px;
     width: auto;
     height: auto;
-}
-
-.chute {
-    z-index: -1;
-    border-radius: 25px;
-    width: 99px;
-    height: 105px;
-    background-image: url("../../../assets/images/small-banana.gif");
-    position: absolute;
-    opacity: 1;
-
-    &.small {
-        width: 45px;
-        height: 52px;
-        background-size: 100%;
-    }
+    max-width:100%;
+    max-height:100%;
 }
